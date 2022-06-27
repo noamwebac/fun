@@ -91,12 +91,6 @@ export class Body extends Component {
                             <Card id="card-carousel">
                                 <Card.Img id="image-carousel" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/phsa%2020-li%20a1-%20311706.jpg"/>
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                    </Card.Text>
-                                    <Button variant="success">Go somewhere</Button>
                                 </Card.Body>
                             </Card>
                         </Carousel.Item>
@@ -223,15 +217,16 @@ export class Body extends Component {
                 <div id="card-text">
                     <CardGroup>
                         <Card>
-                            <Card.Header><h3>Une structure dédiée</h3></Card.Header>
-                            <Card.Body>
-                            SAV03 gère le service après-vente des appareils fabriqués par la société GRIZZLY Tools pour la France. 
+                            <Card.Header id="card-header"><h3>Une structure dédiée</h3></Card.Header>
+                            <Card.Body id="card-body">
+                            SAV03 gère le service après-vente des appareils fabriqués par la société GRIZZLY Tools pour la France.<br/>
+                            <br/>
                             Pour servir au mieux nos Clients, nous avons notre propre centre d'appels, service de préparation de commandes mais aussi un service technique.
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Header><h3>Des prestations uniques</h3></Card.Header>
-                            <Card.Body>
+                            <Card.Header id="card-header"><h3>Des prestations uniques</h3></Card.Header>
+                            <Card.Body id="card-body">
                             * Société de sercice après-vente pour GRIZZLY Tools,
                             * Prestations motoculture avec plus de 30 agréments,
                             * Nous réalisons des prises en charge sous et hors garantie pour les grandes distributions,
@@ -240,8 +235,8 @@ export class Body extends Component {
                             </Card.Body>
                         </Card>
                         <Card>
-                            <Card.Header><h3>Une expérience évolutive</h3></Card.Header>
-                            <Card.Body>
+                            <Card.Header id="card-header"><h3>Une expérience évolutive</h3></Card.Header>
+                            <Card.Body id="card-body">
                             Soucieux de la qualité de prestation, nous travaillons chaque jour à améliorer nos prestations. Vos feedbacks nous permettent d'être au plus près de vos besoins.
                             </Card.Body>
                         </Card>

@@ -1,3 +1,4 @@
+/*Navbar fichier Navigate*/
 .dropdown {
     font-size: 25px;
 }
@@ -14,6 +15,8 @@
     margin-left: 80px;
 }
 
+/*Card presentation fichier Body*/
+
 #container-card {
     text-align: center;
     margin-top: 100px;
@@ -27,6 +30,8 @@
 #card {
     background-color: rgba(0,0,0,.03);
 }
+
+/*Carousel produits fichier Body*/
 
 #card-carousel {
     width: 600px;
@@ -42,6 +47,17 @@
     height: 400px;
 }
 
+/*Card presentation*/
+
 #card-text {
     margin-top: 100px;
+}
+
+#card-body {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+#card-header {
+    text-align: center;
 }
