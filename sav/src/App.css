@@ -24,10 +24,12 @@
     font-size: 1.2rem;
 }
 
-#card {
-    background-color: #D6DAD6;
+#card-carousel {
+    width: 600px;
 }
 
 #carousel {
-    width: 400px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
