@@ -24,6 +24,10 @@
     font-size: 1.2rem;
 }
 
+#card {
+    background-color: rgba(0,0,0,.03);
+}
+
 #card-carousel {
     width: 600px;
 }
@@ -32,4 +36,12 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#image-carousel {
+    height: 400px;
+}
+
+#card-text {
+    margin-top: 100px;
 }
