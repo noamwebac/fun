@@ -14,8 +14,18 @@
     margin-left: 80px;
 }
 
-#accordion-text {
+#container-card {
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+}
+
+#card {
+    background-color: #D6DAD6;
 }
 
 #carousel {
