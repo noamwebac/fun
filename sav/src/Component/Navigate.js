@@ -7,6 +7,7 @@ import {
     Navbar,
     Nav,
     Button,
+    NavbarBrand,
 } from 'react-bootstrap';
 import '../App.css';
 
@@ -14,14 +15,14 @@ export class Navigate extends Component {
     render() {
         return(
             <div>
-                <Navbar bg="dark" variant="dark" style={{ height: '150px'}} className="justify-content-center">
-                    <Container className="justify-content-center">
+                <Navbar bg="dark" variant="dark" style={{ height: '100px'}}>
+                    <Container className="d-flex justify-content-center">
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="justify-content-center">
+                            <Nav>
                                 <Nav.Link href="#home" id="title" className="text-white"><h1>Accueil</h1></Nav.Link>
                             </Nav>
-                            <Nav id="menu" className="justify-content-center">
+                            <Nav id="menu">
                                 <NavDropdown title="Boutique en ligne" className="dropdown" variant="dark" menuVariant="dark" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -38,9 +39,9 @@ export class Navigate extends Component {
                                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
-                            <Nav className="justify-content-center" id="nav-contact">
-                                <Nav id="number" className="text-white"><h4>TEL: 04 70 48 13 20</h4></Nav>
-                                <Button variant="success"><h4>email</h4></Button>
+                            <Nav id="nav-contact">
+                                <NavbarBrand id="number" className="text-white"><h4>TEL: 04 70 48 13 20</h4></NavbarBrand>
+                                <Button variant="success"><h4>Contact</h4></Button>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
