@@ -45,19 +45,27 @@
 
 #image-carousel {
     height: 400px;
+    width: 500px;
 }
 
 /*Card presentation*/
 
 #card-text {
     margin-top: 100px;
+    height: 500px;
 }
 
 #card-body {
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #card-header {
     text-align: center;
+}
+
+#cardgroup {
+    background-color: rgba(0,0,0,.03);
+    width: 410px;
+    height: 320px;
 }
