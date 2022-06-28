@@ -5,7 +5,7 @@ import {
     Accordion,
     Card,
     Button,
-    CardGroup
+    Form
 } from "react-bootstrap";
 import '../App.css';
 
@@ -301,7 +301,49 @@ export class Body extends Component {
                             <div style={{ textAlign: 'center'}} dangerouslySetInnerHTML={{__html: '<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d87798.59814999712!2d3.1814791637598634!3d46.55349856694695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%20Zone%20d&#39;activit%C3%A9%20de%20la%20Verrerie%20-%2003210%20SOUVIGNY!5e0!3m2!1sfr!2sfr!4v1656420138268!5m2!1sfr!2sfr" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'}}/>
                         </Card.Body>
                     </Card>
-                </div>  
+                </div>
+                {/*card contact*/}
+                <div>
+                    <Card>
+                        <Card.Header><h3>Contactez-nous pour toute question particulière, nous traiterons votre demande sans délais</h3></Card.Header>
+                        <Card.Body>
+                            <h3>Ou contactez nous par téléphone au 04 70 48 13 20</h3>
+                            <Form>
+                                <Form.Group>
+                                    <Form.Label>Nom et Prénom</Form.Label>
+                                    <Form.Control type="text" placeholder="Nom Prénom"/>
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="formBasicEmail">
+                                    <Form.Label>Email address</Form.Label>
+                                    <Form.Control type="email" placeholder="Enter email" />
+                                    <Form.Text className="text-muted">
+                                    We'll never share your email with anyone else.
+                                    </Form.Text>
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="formBasicPhone">
+                                    <Form.Label>Numéro de téléphone</Form.Label>
+                                    <Form.Control type="phone" placeholder="Numéro de téléphone"/>
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                                    <Form.Check type="checkbox" label="Check me out" />
+                                </Form.Group>
+                                <Form.Group className="mb-3">
+                                    <Form.Select aria-label="Default select example">
+                                    <option>Raison de votre demande</option>
+                                    <option value="1">SAV LIDL</option>
+                                    <option value="2">Motoculture</option>
+                                    <option value="3">Informatique</option>
+                                    <option value="4">Piece d'étachée</option>
+                                    <option value="5">Divers</option>
+                                    </Form.Select>
+                                </Form.Group>
+                                <Button variant="primary" type="submit">
+                                    Submit
+                                </Button>
+                            </Form>
+                        </Card.Body>
+                    </Card>
+                </div>
             </div>
         );
     }
