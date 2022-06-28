@@ -91,6 +91,19 @@
 
 /*footer fichier footer*/
 
+#footer {
+    background-color:  #E3E3E3;
+}
+
 #list-icon {
     color: black;
+}
+
+#text-footer {
+    text-align: left;
+    font-size: 1rem;
+}
+
+h4 {
+    text-align: left;
 }
