@@ -3,11 +3,12 @@ import { Component } from "react";
 import { Navigate } from "../Component/Navigate";
 import { Body } from "../Component/Body";
 import { Footer } from "../Component/Footer";
+import '../App.css';
 
 export class Home extends Component {
     render() {
         return(
-            <div>
+            <div id="Home">
                 <Navigate/>
                 <Body/>
                 <Footer/>

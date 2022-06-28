@@ -12,32 +12,29 @@ export class Footer extends Component {
             <div id="footer">
                 <div className="container-fluid text-center text-md-left">
                 <div className="row d-flex">
-                    <div className="col-md-3  mt-3">
+                    <div className="col-md-3  mt-4">
                         <h4>Des services dédiés</h4>
                         <p id="text-footer">L'ensemble de l'équipe est à votre service chaque jour.</p>
                         <p id="text-footer">Chaque département de compétance traite au quotidien vos dificultées.</p>
                     </div>
-                    <div className="col-md-3  mt-3">
+                    <div className="col-md-3  mt-4">
                         <h4>Informations légales</h4>
                         <p id="text-footer">Copyright SAV03.FR Tous droits réservés Site réalisé par le service informatique.</p>
                         <p id="text-footer">Site hébergé par OVH en France.</p>
                         <p id="text-footer"><a style={{ textDecoration: 'none', color: 'black' }} href="#">Plus d'informations</a></p>
                     </div>
-                    <div className="col-md-3 mt-3">
+                    <div className="col-md-3 mt-4">
                         <h4>Utilisation des cookies</h4>
-                        <p id="text-footer">Pour vous assurer une expérience réussie, 
-                            ce site utilise des cookies et des traceurs 
-                            Google Analytics à des fins statistiques.
-                            Pour en savoir plus, cliquez ICI.
-                        </p>
+                        <p id="text-footer">Pour vous assurer une expérience réussie, ce site utilise des cookies et des traceurs Google Analytics à des fins statistiques.</p>
+                        <p id="text-footer"><a style={{ textDecoration: 'none', color: 'black' }} href="#">Pour en savoir plus, cliquez ICI.</a></p>
                     </div>
-                    <div className="col-md-3 mt-3">
+                    <div className="col-md-3 mt-4">
                         <h4>Réseaux sociaux</h4>
                         <p id="text-footer">Pour suivre l'actualité d'SAV03,n'hésitez pas à nous suivre sur les réseaux sociaux</p>
                         <ul className="list-unstyled d-flex justify-content-around">
                             <li><a id="list-icon" href="https://www.facebook.com/www.sav03.fr/"><FaFacebookF size={30}/></a></li>
                             <li><a id="list-icon" href="https://www.google.com/search?q=sav03&oq=sav03&aqs=chrome..69i57j69i60l3j69i65j69i60.1871j0j7&sourceid=chrome&ie=UTF-8"><FaGoogle size={30}/></a></li>
-                            <li><a id="list-icon" href="https://www.ebay.fr/usr/sav_zero_trois"><FaEbay size={30}/></a></li>
+                            <li><a id="list-icon" href="https://www.ebay.fr/usr/sav_zero_trois"><FaEbay size={40}/></a></li>
                             <li><a id="list-icon" href="https://www.amazon.fr/s?i=merchant-items&me=A1YSM2PYI2Y8JE&qid=1566137336&ref=sr_hi_1"><FaAmazon size={30}/></a></li>
                         </ul>
                     </div>

@@ -1,3 +1,7 @@
+#Home {
+    background-color: #8EE4AF;
+}
+
 /*Navbar fichier Navigate*/
 .dropdown {
     font-size: 25px;
@@ -25,10 +29,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 1.2rem;
-}
-
-#card {
-    background-color: rgba(0,0,0,.03);
+    box-shadow: 10px 10px 10px #B9B9B9, 10px 10px 20px #B9B9B9;
 }
 
 /*Carousel produits fichier Body*/
@@ -65,7 +66,6 @@
 }
 
 #cardgroup {
-    background-color: rgba(0,0,0,.03);
     width: 410px;
     height: 320px;
 }
@@ -76,7 +76,8 @@
     text-align: center;
     font-size: 1.1rem;
     width: 900px;
-    margin-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*card grizzly*/
@@ -101,7 +102,7 @@
 
 #text-footer {
     text-align: left;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 h4 {
