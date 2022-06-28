@@ -249,6 +249,59 @@ export class Body extends Component {
                             </Card.Body>
                         </Card>
                 </div>
+                {/*card quality*/}
+                <div id="card-quality" className="d-flex justify-content-around">
+                    <Card>
+                        <Card.Header><h1>Des prestations Qualité & Réactivité</h1></Card.Header>
+                        <Card.Body>
+                            <Card.Text>
+                                <h2>Un travail de tous les jours</h2>
+                                <br/>
+                                SAV03 représente la société GRIZZLY Tools et assure le SAV et la vente de pièces détachées pour la France,
+                                <br/>
+                                Nous vous proposons également la vente des produits finis de marque GRIZZLY Tools dans notre boutique en ligne dont vous avez un aperçu au dessus.
+                                <br/>
+                                Les appareils sont de très grande qualitées allemande soumis aux plus grandes structures comme GS et TUV. 
+                            </Card.Text>
+                            <Card.Img variant="footer" src="https://sav03.fr/wa_images/certification-gs_10761%202.jpg?v=1eomk1r"></Card.Img>
+                        </Card.Body>
+                    </Card>
+                </div>
+                {/*card grizzly-tools*/}
+                <div id="card-grizzly" className="d-flex justify-content-around">
+                    <Card>
+                        <Card.Body>
+                        <Card.Img variant="top" style={{ height: '200px', width: '400px'}} src="https://sav03.fr/wa_images/grizzly%20logo%20mit%20tatze%20transparent_ohne(r)_rgb.jpg?v=1fqkfv7" />
+                            <Card.Title style={{ marginTop: '50px'}}>Présentation</Card.Title>
+                            <Card.Text>
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                            </Card.Text>
+                            <Accordion defaultActiveKey="0">
+                                <Accordion.Item eventKey="0">
+                                    <Accordion.Header>Accordion Item #1</Accordion.Header>
+                                    <Accordion.Body style={{ textAlign: 'left'}}>
+                                    La société a été fondée en 1998 par les associés généraux sous le nom "Grizzly Gartengeräte GmbH & Co. KG" à Groß-Umstadt, dans le sud de la Hesse. En collaboration avec un certain nombre de fabricants italiens de machines de jardinage, il était prévu de fournir au marché allemand du jardinage et des loisirs des outils de jardinage innovants et abordables. La société a depuis lors connu une croissance rapide et figure aujourd'hui parmi les principales entreprises d'importation européennes sur le marché du jardinage et des loisirs. La société change et devient GRIZZLY TOOLS.
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                            </Accordion>
+                        </Card.Body>
+                    </Card>
+                </div>
+                {/*card nous retrouvez*/}
+                <div>
+                    <Card>
+                        <Card.Header style={{ textAlign: 'center'}}><h1>Informations</h1></Card.Header>
+                        <Card.Body>
+                            <Card.Text style={{ textAlign: 'center'}}>
+                            Nous vous accueillons du Lundi au Vendredi à partir de 8h30 jusqu'à 18h sans interruption.
+                            Vous pouvez vous rendre à notre accueil  à l'entreprise à l'adresse suivante: Zone d'activité de la Verrerie - 03210 SOUVIGNY
+                            Saisissez 3 route de cosne, 03210 souvigny sur votre GPS
+                            </Card.Text>
+                            <div style={{ textAlign: 'center'}} dangerouslySetInnerHTML={{__html: '<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d87798.59814999712!2d3.1814791637598634!3d46.55349856694695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%20Zone%20d&#39;activit%C3%A9%20de%20la%20Verrerie%20-%2003210%20SOUVIGNY!5e0!3m2!1sfr!2sfr!4v1656420138268!5m2!1sfr!2sfr" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'}}/>
+                        </Card.Body>
+                    </Card>
+                </div>  
             </div>
         );
     }

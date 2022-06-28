@@ -69,3 +69,24 @@
     width: 410px;
     height: 320px;
 }
+
+/*Card quality*/
+
+#card-quality {
+    text-align: center;
+    font-size: 1.1rem;
+    width: 900px;
+    margin-left: 200px;
+}
+
+/*card grizzly*/
+
+#card-grizzly {
+    margin-top: 100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+}
+
+/**/
