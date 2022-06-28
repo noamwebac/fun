@@ -34,21 +34,6 @@
 
 /*Carousel produits fichier Body*/
 
-#card-carousel {
-    width: 600px;
-}
-
-#carousel {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#image-carousel {
-    height: 400px;
-    width: 500px;
-}
-
 /*Card presentation*/
 
 #card-text {
