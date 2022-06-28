@@ -78,12 +78,14 @@
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 10px 10px 10px #B9B9B9, 10px 10px 20px #B9B9B9;
 }
 
 /*card grizzly*/
 
 #card-grizzly {
     margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
