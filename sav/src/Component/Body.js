@@ -61,46 +61,149 @@ export class Body extends Component {
                 </div>
                 {/*Carousel produits*/}
                 <div>
-                    <Card>
-                        <Card.Header><h1>Nos produits phare</h1></Card.Header>
-                        <Card.Body>
-                            <div className="d-flex jutify-content-between">
-                                <Card>
-                                    <Card.Img variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/pls%203000%20a1.jpg"/>
-                                    <Card.Body>
+                    <h1>Nos produits phare</h1>
+                    <Card.Body>
+                        <div className="d-flex justify-content-between">
+                            <Card id="card-produits">
+                                <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/pls%203000%20a1.jpg"/>
+                                <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
                                     <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
-                                    </Card.Body>
-                                </Card>
-                                <Card>
-                                    <Card.Img variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/e7c3803795b6037556d07193a4244f4c.jpg"/>
-                                    <Card.Body>
+                                    <Button variant="success">Go somewhere</Button>
+                                </Card.Body>
+                            </Card>
+                            <Card id="card-produits">
+                                    <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/e7c3803795b6037556d07193a4244f4c.jpg"/>
+                                <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
                                     <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
-                                    </Card.Body>
-                                </Card>
-                                <Card>
-                                    <Card.Img variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/phsa%2020-li%20a1-%20311706.jpg"/>
-                                    <Card.Body>
+                                    <Button variant="success">Go somewhere</Button>
+                                </Card.Body>
+                            </Card>
+                            <Card id="card-produits">
+                                    <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/phsa%2020-li%20a1-%20311706.jpg"/>
+                                <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
                                     <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
-                                    </Card.Body>
-                                </Card>
-                            </div>
-                        </Card.Body>
-                    </Card>
+                                    <Button variant="success">Go somewhere</Button>
+                                </Card.Body>
+                            </Card>
+                        </div>            
+                        <div className="d-flex justify-content-between">
+                            <Card id="card-produits">
+                                <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/phs%20600%20a1.jpg"/>
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    </Card.Text>
+                                    <Button variant="success">Go somewhere</Button>
+                                </Card.Body>
+                            </Card>
+                            <Card id="card-produits">
+                                <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/phsl.jpg"/>
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    </Card.Text>
+                                    <Button variant="success">Go somewhere</Button>
+                                </Card.Body>
+                            </Card>
+                            <Card id="card-produits">
+                                <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/phsa%2020-li%20a1-%20311706.jpg"/>
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    </Card.Text>
+                                    <Button variant="success">Go somewhere</Button>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        <div className="d-flex justify-content-between">
+                            <Card id="card-produits">
+                                <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/pls%203000%20a1.jpg"/>
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    </Card.Text>
+                                    <Button variant="success">Go somewhere</Button>
+                                </Card.Body>
+                            </Card>
+                            <Card id="card-produits">
+                                <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/e7c3803795b6037556d07193a4244f4c.jpg"/>
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    </Card.Text>
+                                    <Button variant="success">Go somewhere</Button>
+                                </Card.Body>
+                            </Card>
+                            <Card id="card-produits">
+                                <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/phsa%2020-li%20a1-%20311706.jpg"/>
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    </Card.Text>
+                                    <Button variant="success">Go somewhere</Button>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        <div className="d-flex justify-content-between">
+                            <Card id="card-produits">
+                                <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/pls%203000%20a1.jpg"/>
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    </Card.Text>
+                                    <Button variant="success">Go somewhere</Button>
+                                </Card.Body>
+                            </Card>
+                            <Card id="card-produits">
+                                <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/e7c3803795b6037556d07193a4244f4c.jpg"/>
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    </Card.Text>
+                                    <Button variant="success">Go somewhere</Button>
+                                </Card.Body>
+                            </Card>
+                            <Card id="card-produits">
+                                <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/phsa%2020-li%20a1-%20311706.jpg"/>
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    </Card.Text>
+                                    <Button variant="success">Go somewhere</Button>
+                                </Card.Body>
+                            </Card>
+                        </div>        
+                    </Card.Body>   
                 </div>
                         {/* 
                         <Carousel id="carousel">
@@ -380,7 +483,7 @@ export class Body extends Component {
                                     <option value="5">Divers</option>
                                     </Form.Select>
                                 </Form.Group>
-                                <Button variant="primary" type="submit">
+                                <Button variant="success" type="submit">
                                     Submit
                                 </Button>
                             </Form>
