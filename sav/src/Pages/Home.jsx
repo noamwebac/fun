@@ -1,8 +1,15 @@
 import React from "react";
 import { Component } from "react";
 import { Navigate } from "../Component/Navigate";
-import { Body } from "../Component/Body";
 import { Footer } from "../Component/Footer";
+import { CarouselImage } from "../Component/Carousel/CarouselImage";
+import { Quality } from "../Component/MoreBusiness/Quality";
+import { CarouselProduct } from "../Component/Carousel/CarouselProduct";
+import { Presentation } from "../Component/MoreBusiness/Presentation";
+import { Origin } from "../Component/MoreBusiness/Origin";
+import { Grizzly } from "../Component/MoreBusiness/Grizzly";
+import { Map } from "../Component/MoreBusiness/Map";
+import { Contact } from "../Component/MoreBusiness/Contact";
 import '../App.css';
 
 export class Home extends Component {
@@ -10,7 +17,14 @@ export class Home extends Component {
         return(
             <div id="Home">
                 <Navigate/>
-                <Body/>
+                <CarouselImage/>
+                <Quality/>
+                <CarouselProduct/>
+                <Presentation/>
+                <Origin/>
+                <Grizzly/>
+                <Map/>
+                <Contact/>
                 <Footer/>
             </div>
         );

@@ -1,5 +1,11 @@
 import React from "react";
 import { Component } from "react";
+import {
+    Card,
+    Form,
+    Button
+} from "react-bootstrap";
+import "../../App.css";
 
 export class Contact extends Component {
     render() {

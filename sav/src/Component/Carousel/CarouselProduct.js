@@ -1,6 +1,12 @@
 import React from "react";
 import { Component } from "react";
- export class CarouselProduct extends Component {
+import {
+    Card,
+    Carousel,
+    Button
+} from "react-bootstrap";
+
+export class CarouselProduct extends Component {
     render() {
         return(
             <div id="product-carousel">
@@ -9,7 +15,7 @@ import { Component } from "react";
                 </Card>
                 <Carousel variant="dark" id="car">
                     <Carousel.Item>
-                        <div className="d-flex justify-content-around">
+                        <div className="d-flex justify-content-between">
                             <Card id="card-produits" style={{ marginLeft: '150px'}}>
                                 <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/pls%203000%20a1.jpg"/>
                                 <Card.Body>
@@ -45,8 +51,8 @@ import { Component } from "react";
                             </Card>
                         </div>            
                     </Carousel.Item>
-                    <Carousel.Item>
-                        <div className="d-flex justify-content-around">
+                    {/*<Carousel.Item>
+                        <div className="d-flex justify-content-between">
                             <Card id="card-produits" style={{ marginLeft: '150px'}}>
                                 <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/phs%20600%20a1.jpg"/>
                                 <Card.Body>
@@ -83,7 +89,7 @@ import { Component } from "react";
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="d-flex justify-content-around">
+                        <div className="d-flex justify-content-between">
                             <Card id="card-produits" style={{ marginLeft: '150px'}}>
                                 <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/pkga%2040-li%20a1.jpg"/>
                                 <Card.Body>
@@ -120,7 +126,7 @@ import { Component } from "react";
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="d-flex justify-content-around">
+                        <div className="d-flex justify-content-between">
                             <Card id="card-produits" style={{ marginLeft: '150px'}}>
                                 <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/prma%2040%20li%20a1%20-%20311518.jpg"/>
                                 <Card.Body>
@@ -155,7 +161,7 @@ import { Component } from "react";
                                 </Card.Body>
                             </Card>
                         </div>
-                    </Carousel.Item>     
+        </Carousel.Item>*/}     
                 </Carousel>
             </div>
         );
