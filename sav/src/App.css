@@ -43,6 +43,10 @@
     box-shadow: 10px 10px 10px #B9B9B9, 10px 10px 20px #B9B9B9;
 }
 
+.carousel-control-prev, .carousel-control-next {
+    color: #000;
+}
+
 #card-image {
     width: 300px;
     height: 200px;
