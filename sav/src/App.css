@@ -39,9 +39,15 @@
     height: 800px;
 }
 
-#car {
+#title {
     text-align: center;
+    font-size: 25px;
+    box-shadow: 10px 10px 10px #B9B9B9, 10px 10px 20px #B9B9B9;
+}
+
+#car {
     margin-top: 100px;
+    width: 100%;
 }
 
 #card-title {
@@ -55,12 +61,12 @@
 }
 
 #card-image {
-    width: 300px;
+    width: 270px;
     height: 200px;
 }
 
 #card-produits {
-    width: 300px;
+    width: 250px;
     height: 380px;
     margin-bottom: 100px;
     border: none;
