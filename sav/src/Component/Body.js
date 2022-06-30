@@ -59,8 +59,11 @@ export class Body extends Component {
                     </Card>
                 </div>
                 {/*Carousel produits*/}
-                <div>
-                    <Carousel variant="dark">
+                <div id="product-carousel">
+                    <Card style={{ border: 'none'}}>
+                        <Card.Header id="card-title"><h1>Nos produits phare</h1></Card.Header>
+                    </Card>
+                    <Carousel variant="dark" id="car">
                         <Carousel.Item>
                             <div className="d-flex justify-content-around">
                                 <Card id="card-produits">
@@ -75,7 +78,7 @@ export class Body extends Component {
                                     </Card.Body>
                                 </Card>
                                 <Card id="card-produits">
-                                        <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/e7c3803795b6037556d07193a4244f4c.jpg"/>
+                                    <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/e7c3803795b6037556d07193a4244f4c.jpg"/>
                                     <Card.Body>
                                         <Card.Title>Card Title</Card.Title>
                                         <Card.Text>
