@@ -3,7 +3,6 @@ import { Component } from "react";
 import {
     Carousel
 } from "react-bootstrap";
-import "../../App.css";
 
 export class CarouselImage extends Component {
     render() {

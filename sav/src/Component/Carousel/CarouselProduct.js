@@ -15,7 +15,7 @@ export class CarouselProduct extends Component {
                 </Card>
                 <Carousel variant="dark" id="car">
                     <Carousel.Item>
-                        <div className="d-flex justify-content-between">
+                        <div className="d-flex justify-content-around">
                             <Card id="card-produits" style={{ marginLeft: '150px'}}>
                                 <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/pls%203000%20a1.jpg"/>
                                 <Card.Body>
@@ -51,8 +51,8 @@ export class CarouselProduct extends Component {
                             </Card>
                         </div>            
                     </Carousel.Item>
-                    {/*<Carousel.Item>
-                        <div className="d-flex justify-content-between">
+                    <Carousel.Item>
+                        <div className="d-flex justify-content-around">
                             <Card id="card-produits" style={{ marginLeft: '150px'}}>
                                 <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/phs%20600%20a1.jpg"/>
                                 <Card.Body>
@@ -89,7 +89,7 @@ export class CarouselProduct extends Component {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="d-flex justify-content-between">
+                        <div className="d-flex justify-content-around">
                             <Card id="card-produits" style={{ marginLeft: '150px'}}>
                                 <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/pkga%2040-li%20a1.jpg"/>
                                 <Card.Body>
@@ -126,7 +126,7 @@ export class CarouselProduct extends Component {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="d-flex justify-content-between">
+                        <div className="d-flex justify-content-around">
                             <Card id="card-produits" style={{ marginLeft: '150px'}}>
                                 <Card.Img id="card-image" variant="top" src="https://sav03.fr/wa_p_albums/p_album_k0xj3q3h0/k0xj2swn6c24l4/prma%2040%20li%20a1%20-%20311518.jpg"/>
                                 <Card.Body>
@@ -161,7 +161,7 @@ export class CarouselProduct extends Component {
                                 </Card.Body>
                             </Card>
                         </div>
-        </Carousel.Item>*/}     
+                    </Carousel.Item>
                 </Carousel>
             </div>
         );

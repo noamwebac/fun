@@ -9,7 +9,6 @@ import {
     Button,
     NavbarBrand,
 } from 'react-bootstrap';
-import '../App.css';
 
 export class Navigate extends Component {
     render() {

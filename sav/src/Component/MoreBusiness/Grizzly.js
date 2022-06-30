@@ -4,7 +4,6 @@ import {
     Card,
     Accordion
 } from "react-bootstrap";
-import "../../App.css";
 
 export class Grizzly extends Component {
     render() {

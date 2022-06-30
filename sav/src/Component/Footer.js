@@ -4,7 +4,6 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaEbay } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 import { FaAmazon } from "react-icons/fa";
-import "../App.css";
 
 export class Footer extends Component {
     render() {

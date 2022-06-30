@@ -10,7 +10,7 @@ import { Origin } from "../Component/MoreBusiness/Origin";
 import { Grizzly } from "../Component/MoreBusiness/Grizzly";
 import { Map } from "../Component/MoreBusiness/Map";
 import { Contact } from "../Component/MoreBusiness/Contact";
-import '../App.css';
+import "../App.css";
 
 export class Home extends Component {
     render() {
