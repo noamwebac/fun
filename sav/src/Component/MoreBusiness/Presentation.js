@@ -7,7 +7,7 @@ import {
 export class Presentation extends Component {
     render() {
         return(
-            <div id="card-text" className="d-flex justify-content-between">
+            <div id="card-text" className="d-flex justify-content-evenly">
                 <Card id="cardgroup">
                     <Card.Header id="card-header"><h3>Une structure dédiée</h3></Card.Header>
                     <Card.Body id="card-body">

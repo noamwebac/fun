@@ -7,7 +7,7 @@ import {
 export class Map extends Component {
     render() {
         return(
-            <div>
+            <div id="map">
                 <Card>
                     <Card.Header style={{ textAlign: 'center'}}><h1>Informations</h1></Card.Header>
                     <Card.Body>
