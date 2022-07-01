@@ -142,3 +142,16 @@ h4 {
     margin-left: auto;
     margin-bottom: 100px;
 }
+
+/*contact*/
+
+#contact {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1100px;
+    margin-bottom: 100px;
+}
+
+#contact-input {
+    width: 600px;
+}
