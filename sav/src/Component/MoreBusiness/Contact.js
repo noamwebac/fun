@@ -10,10 +10,10 @@ export class Contact extends Component {
     render() {
         return(
             <div id="contact">
-                <Card>
-                    <Card.Header id="card-title"><h4>Contactez-nous pour toute question particulière, nous traiterons votre demande sans délais</h4></Card.Header>
+                <Card id="card-contact">
+                    <Card.Header><h4>Contactez-nous pour toute question particulière, nous traiterons votre demande sans délais</h4></Card.Header>
                 </Card>
-                <Card>
+                <Card id="card-card-contact" style={{ border: 'none'}} className="d-flex justify-content-around">
                     <Card.Body>
                         <h4 style={{ marginBottom: '20px'}}>Contactez nous par téléphone au 04 70 48 13 20</h4>
                         <Form>
@@ -44,7 +44,7 @@ export class Contact extends Component {
                             </Form.Group>
                             <Form.Group>
                                 <Form.Label>Votre message</Form.Label>
-                                <Form.Control style={{ width: '500px', height: '200px'}} type="textarea" placeholder="votre message"/>
+                                <Form.Control style={{ width: '600px', height: '100px'}} as="textarea" type="textarea" placeholder="votre message"/>
                             </Form.Group>
                             <Button variant="success" type="submit">
                                 Submit

@@ -146,12 +146,26 @@ h4 {
 /*contact*/
 
 #contact {
+    margin-bottom: 100px;
+    width: 1100px;
     margin-right: auto;
     margin-left: auto;
-    width: 1100px;
-    margin-bottom: 100px;
+}
+
+#card-contact {
+    text-align: center;
+    font-size: 1.1rem;
+    box-shadow: 10px 10px 10px #B9B9B9, 10px 10px 20px #B9B9B9;
+    margin-bottom: 80px;
+    border: none;
 }
 
 #contact-input {
     width: 600px;
+}
+
+#card-card-contact {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
