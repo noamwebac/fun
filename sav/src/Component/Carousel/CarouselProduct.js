@@ -21,7 +21,7 @@ export class CarouselProduct extends Component {
                                 <Card.Body>
                                     <Card.Title id="title-carousel">Card Title</Card.Title>
                                     <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
+                                    Some quick example text to build on the card title-carousel and make up the bulk of
                                     the card's content.
                                     </Card.Text>
                                     <Button variant="success">Détails</Button>
@@ -32,7 +32,7 @@ export class CarouselProduct extends Component {
                                 <Card.Body>
                                     <Card.Title id="title-carousel">Card Title</Card.Title>
                                     <Card.Text>
-                                    Some quick example text to build on the card title-carousel-carousel and make up the bulk of
+                                    Some quick example text to build on the card title-carousel and make up the bulk of
                                     the card's content.
                                     </Card.Text>
                                     <Button variant="success">Détails</Button>
