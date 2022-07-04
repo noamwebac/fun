@@ -12,23 +12,23 @@ export class Footer extends Component {
                 <div className="container-fluid text-center text-md-left">
                 <div className="row d-flex">
                     <div className="col-md-3  mt-4">
-                        <h4>Des services dédiés</h4>
+                        <h4 id="title-footer">Des services dédiés</h4>
                         <p id="text-footer">L'ensemble de l'équipe est à votre service chaque jour.</p>
                         <p id="text-footer">Chaque département de compétance traite au quotidien vos dificultées.</p>
                     </div>
                     <div className="col-md-3  mt-4">
-                        <h4>Informations légales</h4>
+                        <h4 id="title-footer">Informations légales</h4>
                         <p id="text-footer">Copyright SAV03.FR Tous droits réservés Site réalisé par le service informatique.</p>
                         <p id="text-footer">Site hébergé par OVH en France.</p>
-                        <p id="text-footer"><a style={{ textDecoration: 'none', color: 'black' }} href="#">Plus d'informations</a></p>
+                        <p id="text-footer"><a style={{ textDecoration: 'none', color: 'white' }} href="#">Plus d'informations</a></p>
                     </div>
                     <div className="col-md-3 mt-4">
-                        <h4>Utilisation des cookies</h4>
+                        <h4 id="title-footer">Utilisation des cookies</h4>
                         <p id="text-footer">Pour vous assurer une expérience réussie, ce site utilise des cookies et des traceurs Google Analytics à des fins statistiques.</p>
-                        <p id="text-footer"><a style={{ textDecoration: 'none', color: 'black' }} href="#">Pour en savoir plus, cliquez ICI.</a></p>
+                        <p id="text-footer"><a style={{ textDecoration: 'none', color: 'white' }} href="#">Pour en savoir plus, cliquez ICI.</a></p>
                     </div>
                     <div className="col-md-3 mt-4">
-                        <h4>Réseaux sociaux</h4>
+                        <h4 id="title-footer">Réseaux sociaux</h4>
                         <p id="text-footer">Pour suivre l'actualité d'SAV03,n'hésitez pas à nous suivre sur les réseaux sociaux</p>
                         <ul className="list-unstyled d-flex justify-content-around">
                             <li><a id="list-icon" href="https://www.facebook.com/www.sav03.fr/"><FaFacebookF size={30}/></a></li>

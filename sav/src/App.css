@@ -62,12 +62,12 @@
 }
 
 #card-image {
-    width: 250px;
+    width: 200px;
     height: 200px;
 }
 
 #card-produits {
-    width: 200px;
+    width: 150px;
     margin-bottom: 130px;
     border: none;
 }
@@ -75,7 +75,7 @@
 /*Card presentation*/
 
 #card-text {
-    margin-top: 100px;
+    margin-top: 200px;
     height: 500px;
 }
 
@@ -118,16 +118,23 @@
 /*footer fichier footer*/
 
 #footer {
-    background-color:  #E3E3E3;
+    background-color:  #282828;
+    color: white;
+    height: 300px;
 }
 
 #list-icon {
-    color: black;
+    color: white;
 }
 
 #text-footer {
     text-align: left;
-    font-size: 0.9rem;
+    font-size: 1rem;
+}
+
+#title-footer {
+    margin-bottom: 40px;
+    margin-top: 15px;
 }
 
 h4 {
@@ -169,3 +176,4 @@ h4 {
     margin-left: auto;
     margin-right: auto;
 }
+
