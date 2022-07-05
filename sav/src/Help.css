@@ -9,3 +9,14 @@
     margin-top: 70px;
     border: none;
 }
+
+#help-card-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+#first-accordion {
+    width: 500px;
+}
