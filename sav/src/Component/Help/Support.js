@@ -213,6 +213,17 @@ export class Support extends Component {
                             </div>
                         </Card.Body>
                     </Card>
+                    <Card>
+                        <Card.Header><h2>Lutte contre la fraude sur internet</h2></Card.Header>
+                        <Card.Body>
+                            <Card.Body>
+                                <Card.Text>
+                                SAV03 s'engage avec le Crédit Agricole dans la lutte des cyber attaques via sa boutique en ligne.
+                                <Card.Img src="https://sav03.fr/wa_images/credit-agricole-embleme.jpg?v=1go82ff"></Card.Img>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card.Body>
+                    </Card>
                 </div>
             </div>
         );
