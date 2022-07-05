@@ -177,3 +177,9 @@ h4 {
     margin-right: auto;
 }
 
+/*page aide*/
+
+#text-page-aide {
+    width: 450px;
+    height: 200px;
+}
