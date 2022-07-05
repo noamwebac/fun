@@ -11,6 +11,7 @@ import { Grizzly } from "../Component/MoreBusiness/Grizzly";
 import { Map } from "../Component/MoreBusiness/Map";
 import { Contact } from "../Component/MoreBusiness/Contact";
 import "../App.css";
+import "../Help.css";
 
 export class Home extends Component {
     render() {

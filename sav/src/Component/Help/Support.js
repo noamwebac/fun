@@ -12,8 +12,8 @@ export class Support extends Component {
         return(
             <div>
                 <div>
-                    <Card>
-                        <Card.Header><h3> BESOIN D'AIDE & SUPPORT BOUTIQUE EN LIGNE</h3></Card.Header>
+                    <Card id="title-help">
+                        <Card.Header><h2>BESOIN D'AIDE & SUPPORT BOUTIQUE EN LIGNE</h2></Card.Header>
                     </Card>
                     <Card>
                         <Card.Header><h2>Selectionnez la raison de votre demande</h2></Card.Header>
@@ -174,6 +174,26 @@ export class Support extends Component {
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>
+                    <Card style={{ marginTop: '100px'}}>
+                        <Card.Header>Paiement sur la boutique en ligne</Card.Header>
+                        <Card.Body>
+                            <h1>Paiement en ligne: La double authentification devient la règle</h1>
+                            <Card.Text>
+                            Afin de sécuriser davantage les transaction via internet, la double authentification se généralise lors du paiement par carte bancaire, au moment de la validation d'une commande.<br/>
+                            Depuis le 12 juin 2021, l'ensemble des paiements est soumis à une double authentification, dite aussi authentification forte.<br/>
+                            Des exceptions sont toutefois autorisées.<br/> 
+                            Cela concerne notamment les transactions sur internet de moins de 30€, qui peuvent déroger à ce principe d'authentification forte. 
+                            </Card.Text>
+                            <h2>Une authentification supplémentaire</h2>
+                            <Card.Text>
+                            L'authentification forte requiert la combinaision de 2 facteurs d'authentification pour vérifier l'identité du payeur.<br/>
+                            Ces facteurs sont classés en 3 catégories:<br/>
+                            -Connaissance (quelque chose que seul l'utilisateur connaît) : un mot de passe , un code secret...<br/>
+                            -Possession (quelque chose que seul l'utilisateur possède) : un téléphone, un ordinateur, un boitier founi par la banque...<br/>
+                            -Inhérence (quelque chose que seul l'utilisateur est) : empreinte digitale, reconnaissance faciale...<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
                 </div>
             </div>
         );
