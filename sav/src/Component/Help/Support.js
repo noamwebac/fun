@@ -191,7 +191,26 @@ export class Support extends Component {
                             -Connaissance (quelque chose que seul l'utilisateur connaît) : un mot de passe , un code secret...<br/>
                             -Possession (quelque chose que seul l'utilisateur possède) : un téléphone, un ordinateur, un boitier founi par la banque...<br/>
                             -Inhérence (quelque chose que seul l'utilisateur est) : empreinte digitale, reconnaissance faciale...<br/>
+                            Pour les achats en ligne, cela signifie que le seul code ç usage unqieu reçu par SMS ne suffit plus.<br/>
+                            Pour répondre ç cette nouvelle obligation , les banques ont majoritairement orienté leurs cliens vers un service disponible via leurs application mobile bancaire:<br/>
+                            pour s'authentifier, une notification est envoyée sur l'application de la banque du titulaire de la carte.<br/>
+                            Cette notification invite alors le client à saisir un code secret (connaissance), soit une empreinte biométrique (Inhérence).<br/>
+                            Le second facteur est vérifié de fait par l'appareil sur lequel est reçu la notification (possession).
+                             </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <Card>
+                        <Card.Header><h3>Bon à savoir</h3></Card.Header>
+                        <Card.Body>
+                            <Card.Text>
+                            Au Crédit Agricole, bénéficiez gratuitement du service d’authentification forte
+                            « SécuriPass » en installant l’application « Ma Banque » sur votre appareil mobile.
+                            Si vous n’utilisez pas encore « SécuriPass », le Crédit Agricole vous transmettra un nouveau code personnel et confidentiel appelé « SécuriCode ».
+                            Découvrez dans le guide « Cybersécurité et lutte contre la fraude », tous les conseils et services du Crédit Agricole afin d’utiliser, en toute sécurité, vos moyens de paiement et réaliser sereinement vos opérations en ligne.
                             </Card.Text>
+                            <div>
+                                <iframe src={"https://www.youtube.com/embed/Pz-IWic5QbA"}></iframe>
+                            </div>
                         </Card.Body>
                     </Card>
                 </div>
