@@ -19,11 +19,11 @@ export class Navigate extends Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav>
-                                <Nav.Link href="#home" id="title" className="text-grey"><h1>Accueil</h1></Nav.Link>
+                                <Nav.Link href="/Home" id="title" className="text-grey"><h1>Accueil</h1></Nav.Link>
                             </Nav>
                             <Nav id="menu">
                                 <NavDropdown title="Boutique en ligne" className="dropdown" variant="dark" menuVariant="dark" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                                <NavDropdown.Item href="/Aide">Aide & Support</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                                 <NavDropdown.Divider />
