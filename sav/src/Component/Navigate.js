@@ -19,7 +19,7 @@ export class Navigate extends Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav>
-                                <Nav.Link href="/Home" id="title" className="text-grey"><h1>Accueil</h1></Nav.Link>
+                                <Nav.Link href="/" id="title" className="text-grey"><h1>Accueil</h1></Nav.Link>
                             </Nav>
                             <Nav id="menu">
                                 <NavDropdown title="Boutique en ligne" className="dropdown" variant="dark" menuVariant="dark" id="basic-nav-dropdown">
