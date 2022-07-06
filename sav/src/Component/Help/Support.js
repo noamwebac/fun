@@ -11,10 +11,10 @@ export class Support extends Component {
     render() {
         return(
             <div>
-                <Card id="title-help">
-                    <Card.Header><h2>BESOIN D'AIDE & SUPPORT BOUTIQUE EN LIGNE</h2></Card.Header>
-                </Card>
-                <div style={{ backgroundColor: 'grey'}}>
+                <div id="title-lidl">    
+                    <h2 id="title-help">BESOIN D'AIDE & SUPPORT BOUTIQUE EN LIGNE</h2>
+                </div>
+                <div style={{ marginTop: '200px'}}>
                     <h2 id="title-accordion-help">Pièces sur la boutique en ligne</h2>
                     <div className="d-flex justify-content-around">
                         <Accordion>
@@ -74,6 +74,8 @@ export class Support extends Component {
                             </Accordion.Item>
                         </Accordion>
                     </div>
+                </div>
+                <div>
                     <h2 id="title-accordion-help">Commandes sur la boutique en ligne</h2>
                     <div className="d-flex justify-content-around">                   
                         <Accordion>
