@@ -5,7 +5,8 @@ import {
   Route
 } from "react-router-dom";
 import { Home } from "./Pages/Home";
-import { Aide } from "../src/Pages/AIde"; 
+import { Aide } from "../src/Pages/AIde";
+import { Motoculture } from "./Pages/Motoculture"; 
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/Aide" element={<Aide/>}/>
+        <Route path="/Motoculture" element={<Motoculture/>}/>
       </Routes>
     </BrowserRouter>
   );

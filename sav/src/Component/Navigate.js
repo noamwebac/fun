@@ -31,7 +31,7 @@ export class Navigate extends Component {
                                 </NavDropdown>
                                 <Nav.Link href="#link" className="text-grey"><h2>Lidl</h2></Nav.Link>
                                 <NavDropdown title="Motoculture" variant="light" className="dropdown-lg" menuVariant="dark" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                                <NavDropdown.Item href="/Motoculture">Motoculture</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                                 <NavDropdown.Divider />

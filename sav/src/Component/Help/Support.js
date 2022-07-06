@@ -11,8 +11,10 @@ export class Support extends Component {
     render() {
         return(
             <div>
-                <div id="title-lidl">    
-                    <h2 id="title-help">BESOIN D'AIDE & SUPPORT BOUTIQUE EN LIGNE</h2>
+                <div id="title-lidl">
+                    <div id="title-help">
+                        <h2>BESOIN D'AIDE & SUPPORT BOUTIQUE EN LIGNE</h2>
+                    </div>    
                 </div>
                 <div style={{ marginTop: '200px'}}>
                     <h2 id="title-accordion-help">Pièces sur la boutique en ligne</h2>
