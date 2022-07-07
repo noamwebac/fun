@@ -40,3 +40,11 @@
     background-image: url('https://images.pexels.com/photos/6728926/pexels-photo-6728926.jpeg?auto=compress&cs=tinysrgb&w=1600');
     background-size: cover;
 }
+
+/*agrement*/
+
+#agre {
+    height: 500px;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/109260/pexels-photo-109260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
