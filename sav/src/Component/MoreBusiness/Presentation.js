@@ -33,7 +33,9 @@ export class Presentation extends Component {
                 <Card id="cardgroup">
                     <Card.Header id="card-header"><h3>Une expérience évolutive</h3></Card.Header>
                     <Card.Body id="card-body">
-                    Soucieux de la qualité de prestation, nous travaillons chaque jour à améliorer nos prestations. Vos feedbacks nous permettent d'être au plus près de vos besoins.
+                    Soucieux de la qualité de prestation, nous travaillons chaque jour à améliorer nos prestations.<br/>
+                    <br/> 
+                    Vos feedbacks nous permettent d'être au plus près de vos besoins.
                     </Card.Body>
                 </Card>
             </div>

@@ -21,7 +21,10 @@ export class Grizzly extends Component {
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>Accordion Item #1</Accordion.Header>
                                 <Accordion.Body style={{ textAlign: 'left'}}>
-                                La société a été fondée en 1998 par les associés généraux sous le nom "Grizzly Gartengeräte GmbH & Co. KG" à Groß-Umstadt, dans le sud de la Hesse. En collaboration avec un certain nombre de fabricants italiens de machines de jardinage, il était prévu de fournir au marché allemand du jardinage et des loisirs des outils de jardinage innovants et abordables. La société a depuis lors connu une croissance rapide et figure aujourd'hui parmi les principales entreprises d'importation européennes sur le marché du jardinage et des loisirs. La société change et devient GRIZZLY TOOLS.
+                                La société a été fondée en 1998 par les associés généraux sous le nom "Grizzly Gartengeräte GmbH & Co. KG" à Groß-Umstadt, dans le sud de la Hesse. <br/> 
+                                En collaboration avec un certain nombre de fabricants italiens de machines de jardinage, il était prévu de fournir au marché allemand du jardinage et des loisirs des outils de jardinage innovants et abordables. <br/> 
+                                La société a depuis lors connu une croissance rapide et figure aujourd'hui parmi les principales entreprises d'importation européennes sur le marché du jardinage et des loisirs.<br/> 
+                                La société change et devient GRIZZLY TOOLS.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
