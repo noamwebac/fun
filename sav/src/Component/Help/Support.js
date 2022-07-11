@@ -6,6 +6,9 @@ import {
     Form,
     Button
 } from "react-bootstrap";
+import { ReactPlayer } from "react-player/youtube";
+import { GoLightBulb } from "react-icons/go";
+
 
 export class Support extends Component {
     render() {
@@ -180,7 +183,7 @@ export class Support extends Component {
                         </Accordion.Item>
                     </Accordion>
                 </div>
-                <Card style={{ marginTop: '100px'}}>
+                <Card id="paiement">
                     <Card.Header>Paiement sur la boutique en ligne</Card.Header>
                     <Card.Body>
                         <h1>Paiement en ligne: La double authentification devient la règle</h1>
@@ -190,7 +193,12 @@ export class Support extends Component {
                         Des exceptions sont toutefois autorisées.<br/> 
                         Cela concerne notamment les transactions sur internet de moins de 30€, qui peuvent déroger à ce principe d'authentification forte. 
                         </Card.Text>
-                        <h2>Une authentification supplémentaire</h2>
+                    <img src="https://www.laplateforme.com/cms/i?o=%2Fsites%2Fdefault%2Ffiles%2Finline-images%2F3d-secure.jpg"/>
+                    </Card.Body>
+                </Card>
+                    <GoLightBulb style={{ width: '400px', height: '500px', color: 'grey'}}/>
+                <Card style={{ marginTop: '60px'}}>
+                    <Card.Header><h2>Une authentification supplémentaire</h2></Card.Header>   
                         <Card.Text>
                         L'authentification forte requiert la combinaision de 2 facteurs d'authentification pour vérifier l'identité du payeur.<br/>
                         Ces facteurs sont classés en 3 catégories:<br/>
@@ -202,23 +210,31 @@ export class Support extends Component {
                         pour s'authentifier, une notification est envoyée sur l'application de la banque du titulaire de la carte.<br/>
                         Cette notification invite alors le client à saisir un code secret (connaissance), soit une empreinte biométrique (Inhérence).<br/>
                         Le second facteur est vérifié de fait par l'appareil sur lequel est reçu la notification (possession).
-                            </Card.Text>
-                    </Card.Body>
-                </Card>
-                <Card>
-                    <Card.Header><h3>Bon à savoir</h3></Card.Header>
-                    <Card.Body>
-                        <Card.Text>
-                        Au Crédit Agricole, bénéficiez gratuitement du service d’authentification forte
-                        « SécuriPass » en installant l’application « Ma Banque » sur votre appareil mobile.
-                        Si vous n’utilisez pas encore « SécuriPass », le Crédit Agricole vous transmettra un nouveau code personnel et confidentiel appelé « SécuriCode ».
-                        Découvrez dans le guide « Cybersécurité et lutte contre la fraude », tous les conseils et services du Crédit Agricole afin d’utiliser, en toute sécurité, vos moyens de paiement et réaliser sereinement vos opérations en ligne.
                         </Card.Text>
-                        <div>
-                            <iframe src={"https://www.youtube.com/embed/Pz-IWic5QbA"}></iframe>
-                        </div>
-                    </Card.Body>
-                </Card>
+                        </Card>
+                <div id="bonsavoir" className="d-flex justify-content-around">    
+                    <Card style={{ height: '320px', width: '500px'}}>
+                        <Card.Header><h3>Bon à savoir</h3></Card.Header>
+                        <Card.Body>
+                            <Card.Text>
+                            Au Crédit Agricole, bénéficiez gratuitement du service d’authentification forte « SécuriPass » en installant l’application « Ma Banque » sur votre appareil mobile.<br/>
+                            Si vous n’utilisez pas encore « SécuriPass », le Crédit Agricole vous transmettra un nouveau code personnel et confidentiel appelé « SécuriCode ».<br/>
+                            Découvrez dans le guide « Cybersécurité et lutte contre la fraude », tous les conseils et services du Crédit Agricole afin d’utiliser, en toute sécurité, vos moyens de paiement et réaliser sereinement vos opérations en ligne.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <ReactPlayer url="https://www.youtube.com/embed/Pz-IWic5QbA"/>
+                    {/** 
+                     * 
+                     * 
+                     * 
+                     * 
+                     <div>
+                         <iframe style={{ height: '400px', width: '600px'}} src={"https://www.youtube.com/embed/Pz-IWic5QbA"}></iframe>
+                     </div>
+                     * 
+                    */}
+                </div>
                 <Card>
                     <Card.Header><h2>Lutte contre la fraude sur internet</h2></Card.Header>
                     <Card.Body>
