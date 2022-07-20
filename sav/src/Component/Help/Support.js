@@ -223,8 +223,8 @@ export class Support extends Component {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <ReactPlayer url="https://www.youtube.com/embed/Pz-IWic5QbA"/>
-                    {/** 
+                    {/*<ReactPlayer url="https://www.youtube.com/embed/Pz-IWic5QbA"/>
+                     
                      * 
                      * 
                      * 
