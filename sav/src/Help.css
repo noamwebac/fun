@@ -15,6 +15,7 @@
     margin-right: auto;
     border: solid;
     backdrop-filter: blur(8px);
+    padding: 25px;
 }
 
 #help-card-title {
