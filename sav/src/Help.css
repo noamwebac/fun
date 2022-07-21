@@ -1,5 +1,12 @@
 /*page support*/
 
+#title-lidl {
+    height: 600px;
+    background-image: url('https://images.pexels.com/photos/6728926/pexels-photo-6728926.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    background-size: cover;
+    padding-top: 450px;
+}
+
 #title-help {
     text-align: center;
     width: 800px;
@@ -35,11 +42,6 @@
     margin-top: 100px;
 }
 
-#title-lidl {
-    height: 600px;
-    background-image: url('https://images.pexels.com/photos/6728926/pexels-photo-6728926.jpeg?auto=compress&cs=tinysrgb&w=1600');
-    background-size: cover;
-}
 
 #paiement {
     margin-top: 100px;
