@@ -49,12 +49,24 @@
     margin-left: auto;
     margin-right: auto;
     width: 1100px;
+    height: 600px;
 }
 
 #bonsavoir {
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    width: 800px;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+#authentification {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 500px;
+    margin-top: 60px;
 }
 
 /*agrement*/

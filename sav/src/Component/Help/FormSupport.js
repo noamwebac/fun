@@ -4,8 +4,7 @@ import {
     Card,
     Accordion,
     Form,
-    Button,
-    Carousel
+    Button
 } from "react-bootstrap";
 
 export class FormSupport extends Component {
@@ -175,81 +174,6 @@ export class FormSupport extends Component {
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>
-                </div>
-                <div>
-                    <Carousel>
-                        <Carousel.Item id="second-accordion">
-                            <Card>
-                                <Form>
-                                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                                        <Form.Label>Adresse email:</Form.Label>
-                                        <Form.Control type="email" placeholder="Enter email"/>
-                                    </Form.Group>
-                                    <Form.Group className="mb-3" controlId="formBasicPassword">
-                                        <Form.Label>Nom:</Form.Label>
-                                        <Form.Control type="text" placeholder="Password"/>
-                                    </Form.Group>
-                                    <Form.Group className="mb-3" controlId="formBasicPassword">
-                                        <Form.Label>Référence de la commande:</Form.Label>
-                                        <Form.Control type="text" placeholder="Password"/>
-                                    </Form.Group>
-                                    <Form.Group>
-                                        <Form.Label>Date de la commande:</Form.Label>
-                                        <Form.Control type="date"/>
-                                    </Form.Group>
-                                    <Button variant="primary" type="submit">
-                                        Submit
-                                    </Button>
-                                </Form>
-                            </Card>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            src="holder.js/800x400?text=Second slide&bg=282c34"
-                            alt="Second slide"
-                            />
-
-                            <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            src="holder.js/800x400?text=Third slide&bg=20232a"
-                            alt="Third slide"
-                            />
-
-                            <Carousel.Caption><Form>
-                                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                                        <Form.Label>Adresse email:</Form.Label>
-                                        <Form.Control type="email" placeholder="Enter email"/>
-                                    </Form.Group>
-                                    <Form.Group className="mb-3" controlId="formBasicPassword">
-                                        <Form.Label>Nom:</Form.Label>
-                                        <Form.Control type="text" placeholder="Password"/>
-                                    </Form.Group>
-                                    <Form.Group className="mb-3" controlId="formBasicPassword">
-                                        <Form.Label>Référence de la commande:</Form.Label>
-                                        <Form.Control type="text" placeholder="Password"/>
-                                    </Form.Group>
-                                    <Form.Group>
-                                        <Form.Label>Date de la commande:</Form.Label>
-                                        <Form.Control type="date"/>
-                                    </Form.Group>
-                                    <Button variant="primary" type="submit">
-                                        Submit
-                                    </Button>
-                                </Form>
-                            <h3>Third slide label</h3>
-                            <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                            </p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>
                 </div>
             </div>
         );
