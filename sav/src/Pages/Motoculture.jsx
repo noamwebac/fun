@@ -7,6 +7,7 @@ import { Partenaire } from "../Component/Motoculture/Partenaire";
 import { Experience } from "../Component/Motoculture/Experience";
 import { Respect } from "../Component/Motoculture/Respect";
 import { Presentation } from "../Component/Motoculture/Presentation";
+import { Swap } from "../Component/Motoculture/Swap";
 
 export class Motoculture extends Component {
     render() {
@@ -18,6 +19,7 @@ export class Motoculture extends Component {
                 <Experience/>
                 <Respect/>
                 <Presentation/>
+                <Swap/>
                 <Footer/>
             </div>
         );
