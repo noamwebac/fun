@@ -57,7 +57,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 800px;
-    height: 300px;
+    height: 280px;
     margin-bottom: 100px;
 }
 
@@ -67,6 +67,15 @@
     width: 900px;
     height: 500px;
     margin-top: 60px;
+}
+
+#agricole {
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 900px;
+    margin-bottom: 100px;
+    border-style: none;
 }
 
 /*agrement*/

@@ -71,18 +71,15 @@ export class SecurityPaiement extends Component {
                      * 
                     */}
                 </div>
-                <Card>
+                <Card id="agricole">
                     <Card.Header><h2>Lutte contre la fraude sur internet</h2></Card.Header>
-                    <Card.Body>
-                        <Card.Body>
-                            <Card.Text>
-                            SAV03 s'engage avec le Crédit Agricole dans la lutte des cyber attaques via sa boutique en ligne.
-                            <Card.Img src="https://sav03.fr/wa_images/credit-agricole-embleme.jpg?v=1go82ff"></Card.Img>
-                            </Card.Text>
-                        </Card.Body>
+                    <Card.Body className="d-flex justify-content-around">
+                        <Card.Text style={{ marginTop: '100px'}}>
+                        SAV03 s'engage avec le Crédit Agricole dans la lutte des cyber attaques via sa boutique en ligne.
+                        </Card.Text>
+                        <Card.Img style={{ width: '500px', height: '400px'}} src="https://sav03.fr/wa_images/credit-agricole-embleme.jpg?v=1go82ff"></Card.Img>
                     </Card.Body>
                 </Card>
- 
             </div>
         );
     }
