@@ -18,7 +18,7 @@ export class Agrement extends Component {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="d-flex justify-content-evenly">
+                <div className="d-flex justify-content-around">
                     <Card id="card-partenaire">
                         <Card.Header><h3>Clients professionnels:</h3></Card.Header>
                         <Card.Body>
@@ -32,7 +32,7 @@ export class Agrement extends Component {
                         </Card.Body>
                     </Card>
                 </div>
-                    <img src="https://sav03.fr/wa_files/image2.jpg"></img>
+                    <img style={{ width: '1000px'}} src="https://sav03.fr/wa_files/image2.jpg"></img>
             </div>
         );
     }

@@ -97,7 +97,8 @@
 /*partenaire*/
 
 #card-partenaire {
-    
+    width: 500px;
+    margin-bottom: 50px;
 }
 
 #title-partenaire {
@@ -109,4 +110,12 @@
     margin-right: auto;
     margin-bottom: 30px;
     box-shadow: 10px 10px 10px #B9B9B9, 10px 10px 10px #B9B9B9;
+}
+
+#part-image {
+    width: 200px;
+}
+
+#icon-partenaire {
+    border-style: none;
 }
