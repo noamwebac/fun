@@ -124,4 +124,12 @@
 
 #card-structure {
     width: 400px;
+    margin-bottom: 100px;
+}
+
+/*card respect*/
+
+#card-respect {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
