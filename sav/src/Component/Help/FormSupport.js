@@ -6,6 +6,11 @@ import {
     Form,
     Button
 } from "react-bootstrap";
+import { DiAptana } from "react-icons/di";
+import { BsCartXFill } from "react-icons/bs";
+import { BsFillBagXFill } from "react-icons/bs";
+import { BsTruck } from "react-icons/bs";
+import { TbPackageOff } from "react-icons/tb";
 
 export class FormSupport extends Component {
     render() {
@@ -16,7 +21,7 @@ export class FormSupport extends Component {
                     <div className="d-flex justify-content-around">
                         <Accordion>
                             <Accordion.Item id="first-accordion" eventKey="0">
-                                <Accordion.Header>Plus d'informations sur une pièce ?</Accordion.Header>
+                                <Accordion.Header><DiAptana style={{ marginRight: '20px'}} size={40}/>Plus d'informations sur une pièce ?</Accordion.Header>
                                 <Accordion.Body>
                                     <Card>
                                         <Form>
@@ -42,7 +47,7 @@ export class FormSupport extends Component {
                         </Accordion>
                         <Accordion>
                             <Accordion.Item id="first-accordion" eventKey="0">
-                                <Accordion.Header>Rupture de stock & Réapprovisionnement</Accordion.Header>
+                                <Accordion.Header><BsCartXFill style={{ marginRight: '20px'}} size={30}/>Rupture de stock & Réapprovisionnement</Accordion.Header>
                                 <Accordion.Body>
                                     <Card>
                                         <Form>
@@ -77,7 +82,7 @@ export class FormSupport extends Component {
                     <div className="d-flex justify-content-around">                   
                         <Accordion>
                             <Accordion.Item id="first-accordion" eventKey="0">
-                                <Accordion.Header>Commande erronée ou incomplète</Accordion.Header>
+                                <Accordion.Header><BsFillBagXFill style={{ marginRight: '20px'}} size={30}/>Commande erronée ou incomplète</Accordion.Header>
                                 <Accordion.Body>
                                     <Card>
                                         <Form>
@@ -111,7 +116,7 @@ export class FormSupport extends Component {
                         </Accordion>
                         <Accordion>
                             <Accordion.Item id="first-accordion" eventKey="0">
-                                <Accordion.Header>Retour de ma commande</Accordion.Header>
+                                <Accordion.Header><BsTruck style={{ marginRight: '20px'}} size={40}/>Retour de ma commande</Accordion.Header>
                                 <Accordion.Body>
                                     <Card>
                                         <Form>
@@ -146,7 +151,7 @@ export class FormSupport extends Component {
                     </div>
                     <Accordion>
                         <Accordion.Item id="second-accordion" eventKey="0">
-                            <Accordion.Header>Commande non livrée</Accordion.Header>
+                            <Accordion.Header><TbPackageOff style={{ marginRight: '20px'}} size={40}/>Commande non livrée</Accordion.Header>
                             <Accordion.Body>
                                 <Card>
                                     <Form>
