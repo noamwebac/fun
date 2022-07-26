@@ -3,9 +3,7 @@ import { Component } from "react";
 import {
     Card
 } from "react-bootstrap";
-import { ReactPlayer } from "react-player/youtube";
 import { GoLightBulb } from "react-icons/go";
-
 
 export class SecurityPaiement extends Component {
     render() {
@@ -45,8 +43,8 @@ export class SecurityPaiement extends Component {
                         Le second facteur est vérifié de fait par l'appareil sur lequel est reçu la notification (possession).
                         </Card.Text>
                         </Card>
-                <div id="bonsavoir" className="d-flex justify-content-around">    
-                    <Card>
+                <div id="bonsavoir" className="d-flex justify-content-around">
+                    <Card style={{ width: '500px'}}>
                         <Card.Header><h3>Bon à savoir</h3></Card.Header>
                         <Card.Body>
                             <Card.Text>
@@ -59,17 +57,9 @@ export class SecurityPaiement extends Component {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    {/*<ReactPlayer url="https://www.youtube.com/embed/Pz-IWic5QbA"/>
-                     
-                     * 
-                     * 
-                     * 
-                     * 
-                     <div>
-                         <iframe style={{ height: '400px', width: '600px'}} src={"https://www.youtube.com/embed/Pz-IWic5QbA"}></iframe>
-                     </div>
-                     * 
-                    */}
+                    <div>
+                        <iframe width="600" height="400" src="https://www.youtube.com/embed/Pz-IWic5QbA" title="TUTO : Comment activer votre service Securipass sur Ma Banque ?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
                 <Card id="agricole">
                     <Card.Header><h2>Lutte contre la fraude sur internet</h2></Card.Header>
