@@ -26,7 +26,7 @@ export class SecurityPaiement extends Component {
                         Des exceptions sont toutefois autorisées.<br/> 
                         Cela concerne notamment les transactions sur internet de moins de 30€, qui peuvent déroger à ce principe d'authentification forte. 
                         </Card.Text>
-                    <img src="https://www.laplateforme.com/cms/i?o=%2Fsites%2Fdefault%2Ffiles%2Finline-images%2F3d-secure.jpg"/>
+                    <img style={{ height: '300px'}} src="https://www.laplateforme.com/cms/i?o=%2Fsites%2Fdefault%2Ffiles%2Finline-images%2F3d-secure.jpg"/>
                     </Card.Body>
                 </Card>
                 <Card id="authentification">
@@ -82,8 +82,8 @@ export class SecurityPaiement extends Component {
                         </Card>   
                     </div>
                     <div>
-                        <Card style={{ marginTop: '100px', width: '700px', marginRight: 'auto', marginLeft: 'auto'}}>
-                            <ImWarning color="red" size={50}/>
+                        <Card style={{ marginTop: '10px', width: '700px', marginRight: 'auto', marginLeft: 'auto', borderStyle: 'none'}}>
+                            <ImWarning color="red" size={100}/>
                             <Card.Text>
                                 Pour les achats en ligne, cela signifie que le seul code ç usage unqieu reçu par SMS ne suffit plus.<br/>
                                 Pour répondre ç cette nouvelle obligation , les banques ont majoritairement orienté leurs cliens vers un service disponible via leurs application mobile bancaire:<br/>
@@ -92,16 +92,7 @@ export class SecurityPaiement extends Component {
                                 Le second facteur est vérifié de fait par l'appareil sur lequel est reçu la notification (possession).     
                             </Card.Text>
                         </Card>
-                        {/*<Card>
-                            Pour les achats en ligne, cela signifie que le seul code ç usage unqieu reçu par SMS ne suffit plus.<br/>
-                            Pour répondre ç cette nouvelle obligation , les banques ont majoritairement orienté leurs cliens vers un service disponible via leurs application mobile bancaire:<br/>
-                            pour s'authentifier, une notification est envoyée sur l'application de la banque du titulaire de la carte.<br/>
-                            Cette notification invite alors le client à saisir un code secret (connaissance), soit une empreinte biométrique (Inhérence).<br/>
-                            Le second facteur est vérifié de fait par l'appareil sur lequel est reçu la notification (possession).
-        </Card>*/}
                     </div>
-                        <Card.Text>
-                        </Card.Text>
                 </Card>
                 <div id="bonsavoir" className="d-flex justify-content-around">
                     <Card style={{ width: '500px'}}>
