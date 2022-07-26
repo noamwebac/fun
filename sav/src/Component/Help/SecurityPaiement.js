@@ -2,8 +2,12 @@ import React from "react";
 import { Component } from "react";
 import {
     Card
-} from "react-bootstrap";
-import { GoLightBulb } from "react-icons/go";
+} from "react-bootstrap"
+import { TbNumber1 } from "react-icons/tb";
+import { TbNumber2 } from "react-icons/tb";
+import { TbNumber3 } from "react-icons/tb";
+import { TbNumber4 } from "react-icons/tb";
+import { TbNumber5 } from "react-icons/tb";
 
 export class SecurityPaiement extends Component {
     render() {
@@ -22,19 +26,63 @@ export class SecurityPaiement extends Component {
                     <img src="https://www.laplateforme.com/cms/i?o=%2Fsites%2Fdefault%2Ffiles%2Finline-images%2F3d-secure.jpg"/>
                     </Card.Body>
                 </Card>
-                    <GoLightBulb style={{ width: '200px', height: '200px', color: 'grey'}}/>
                 <Card id="authentification">
-                    <Card.Header><h2>Une authentification supplémentaire</h2></Card.Header>   
+                    <Card.Header><h2>Une authentification supplémentaire</h2></Card.Header>
+                    <div className="d-flex justify-content-between">                        
+                        <Card style={{ borderStyle: 'none', height: '40px', marginTop: '40px', marginLeft: '150px', marginRight: '30px'}}>
+                            <TbNumber1 size={30}/>
+                        </Card>
+                        <Card style={{ marginTop: '30px'}} id="card-security">
+                            <Card.Text>
+                                L'authentification forte requiert la combinaision de 2 facteurs d'authentification pour vérifier l'identité du payeur.<br/>
+                            </Card.Text>
+                        </Card>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                        <Card style={{ borderStyle: 'none', height: '40px', marginTop: '20px', marginLeft: '150px', marginRight: '30px'}}>
+                            <TbNumber2 size={30}/>
+                        </Card>
+                        <Card id="card-security">
+                            <Card.Text>
+                                Ces facteurs sont classés en 3 catégories:
+                            </Card.Text>
+                        </Card>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                        <Card style={{ borderStyle: 'none', height: '40px', marginTop: '20px', marginLeft: '150px', marginRight: '30px'}}>
+                            <TbNumber3 size={30}/>
+                        </Card>
+                        <Card id="card-security">
+                            <Card.Text>
+                                -Connaissance (quelque chose que seul l'utilisateur connaît) : un mot de passe , un code secret...   
+                            </Card.Text>
+                        </Card>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                        <Card style={{ borderStyle: 'none', height: '40px', marginTop: '20px', marginLeft: '150px', marginRight: '30px'}}>
+                            <TbNumber4 size={30}/>
+                        </Card>
+                        <Card id="card-security">
+                            <Card.Text>
+                                -Possession (quelque chose que seul l'utilisateur possède) : un téléphone, un ordinateur, un boitier founi par la banque...
+                            </Card.Text>
+                        </Card>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                        <Card style={{ borderStyle: 'none', height: '40px', marginTop: '20px', marginLeft: '150px', marginRight: '30px'}}>
+                            <TbNumber5 size={30}/>
+                        </Card>
+                        <Card id="card-security">
+                            <Card.Text>  
+                                -Inhérence (quelque chose que seul l'utilisateur est) : empreinte digitale, reconnaissance faciale...
+                            </Card.Text>
+                        </Card>   
+                    </div>
                         <Card.Text>
-                        L'authentification forte requiert la combinaision de 2 facteurs d'authentification pour vérifier l'identité du payeur.<br/>
                         <br/>
-                        Ces facteurs sont classés en 3 catégories:<br/>
                         <br/>
-                        -Connaissance (quelque chose que seul l'utilisateur connaît) : un mot de passe , un code secret...<br/>
                         <br/>
-                        -Possession (quelque chose que seul l'utilisateur possède) : un téléphone, un ordinateur, un boitier founi par la banque...<br/>
                         <br/>
-                        -Inhérence (quelque chose que seul l'utilisateur est) : empreinte digitale, reconnaissance faciale...<br/>
                         <br/>
                         Pour les achats en ligne, cela signifie que le seul code ç usage unqieu reçu par SMS ne suffit plus.<br/>
                         Pour répondre ç cette nouvelle obligation , les banques ont majoritairement orienté leurs cliens vers un service disponible via leurs application mobile bancaire:<br/>

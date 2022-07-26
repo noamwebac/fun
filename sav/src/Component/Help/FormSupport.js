@@ -47,7 +47,7 @@ export class FormSupport extends Component {
                         </Accordion>
                         <Accordion>
                             <Accordion.Item id="first-accordion" eventKey="0">
-                                <Accordion.Header><BsCartXFill style={{ marginRight: '20px'}} size={30}/>Rupture de stock & Réapprovisionnement</Accordion.Header>
+                                <Accordion.Header><BsCartXFill style={{ marginRight: '20px'}} size={40}/>Rupture de stock & Réapprovisionnement</Accordion.Header>
                                 <Accordion.Body>
                                     <Card>
                                         <Form>
@@ -82,7 +82,7 @@ export class FormSupport extends Component {
                     <div className="d-flex justify-content-around">                   
                         <Accordion>
                             <Accordion.Item id="first-accordion" eventKey="0">
-                                <Accordion.Header><BsFillBagXFill style={{ marginRight: '20px'}} size={30}/>Commande erronée ou incomplète</Accordion.Header>
+                                <Accordion.Header><BsFillBagXFill style={{ marginRight: '20px'}} size={40}/>Commande erronée ou incomplète</Accordion.Header>
                                 <Accordion.Body>
                                     <Card>
                                         <Form>
