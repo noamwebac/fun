@@ -10,6 +10,7 @@ import { TbNumber4 } from "react-icons/tb";
 import { TbNumber5 } from "react-icons/tb";
 import { ImWarning } from "react-icons/im";
 import { MdSecurity } from "react-icons/md";
+import { BsHandThumbsUp } from "react-icons/bs";
 
 export class SecurityPaiement extends Component {
     render() {
@@ -31,7 +32,7 @@ export class SecurityPaiement extends Component {
                 <Card id="authentification">
                     <Card.Header><h2><MdSecurity size={70} style={{ marginRight: '50px'}}/>Une authentification supplémentaire</h2></Card.Header>
                     <div className="d-flex justify-content-between">                        
-                        <Card style={{ borderStyle: 'none', height: '40px', marginTop: '40px', marginLeft: '150px', marginRight: '30px'}}>
+                        <Card style={{ borderStyle: 'none', height: '40px', marginTop: '30px', marginLeft: '150px', marginRight: '30px'}}>
                             <TbNumber1 size={30}/>
                         </Card>
                         <Card style={{ marginTop: '30px'}} id="card-security">
@@ -41,7 +42,7 @@ export class SecurityPaiement extends Component {
                         </Card>
                     </div>
                     <div className="d-flex justify-content-between">
-                        <Card style={{ borderStyle: 'none', height: '40px', marginTop: '20px', marginLeft: '150px', marginRight: '30px'}}>
+                        <Card style={{ borderStyle: 'none', height: '40px', marginLeft: '150px', marginRight: '30px'}}>
                             <TbNumber2 size={30}/>
                         </Card>
                         <Card id="card-security">
@@ -51,7 +52,7 @@ export class SecurityPaiement extends Component {
                         </Card>
                     </div>
                     <div className="d-flex justify-content-between">
-                        <Card style={{ borderStyle: 'none', height: '40px', marginTop: '20px', marginLeft: '150px', marginRight: '30px'}}>
+                        <Card style={{ borderStyle: 'none', height: '40px', marginLeft: '150px', marginRight: '30px'}}>
                             <TbNumber3 size={30}/>
                         </Card>
                         <Card id="card-security">
@@ -61,7 +62,7 @@ export class SecurityPaiement extends Component {
                         </Card>
                     </div>
                     <div className="d-flex justify-content-between">
-                        <Card style={{ borderStyle: 'none', height: '40px', marginTop: '20px', marginLeft: '150px', marginRight: '30px'}}>
+                        <Card style={{ borderStyle: 'none', height: '40px', marginLeft: '150px', marginRight: '30px'}}>
                             <TbNumber4 size={30}/>
                         </Card>
                         <Card id="card-security">
@@ -71,7 +72,7 @@ export class SecurityPaiement extends Component {
                         </Card>
                     </div>
                     <div className="d-flex justify-content-between">
-                        <Card style={{ borderStyle: 'none', height: '40px', marginTop: '20px', marginLeft: '150px', marginRight: '30px'}}>
+                        <Card style={{ borderStyle: 'none', height: '40px', marginLeft: '150px', marginRight: '30px'}}>
                             <TbNumber5 size={30}/>
                         </Card>
                         <Card id="card-security">
@@ -104,7 +105,7 @@ export class SecurityPaiement extends Component {
                 </Card>
                 <div id="bonsavoir" className="d-flex justify-content-around">
                     <Card style={{ width: '500px'}}>
-                        <Card.Header><h3>Bon à savoir</h3></Card.Header>
+                        <Card.Header><h3><BsHandThumbsUp size={80} style={{ marginRight: '40px'}}/>Bon à savoir</h3></Card.Header>
                         <Card.Body>
                             <Card.Text>
                             Au Crédit Agricole, bénéficiez gratuitement du service d’authentification forte « SécuriPass ».<br/>
