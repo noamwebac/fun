@@ -8,6 +8,8 @@ import { TbNumber2 } from "react-icons/tb";
 import { TbNumber3 } from "react-icons/tb";
 import { TbNumber4 } from "react-icons/tb";
 import { TbNumber5 } from "react-icons/tb";
+import { ImWarning } from "react-icons/im";
+import { MdSecurity } from "react-icons/md";
 
 export class SecurityPaiement extends Component {
     render() {
@@ -27,7 +29,7 @@ export class SecurityPaiement extends Component {
                     </Card.Body>
                 </Card>
                 <Card id="authentification">
-                    <Card.Header><h2>Une authentification supplémentaire</h2></Card.Header>
+                    <Card.Header><h2><MdSecurity size={70} style={{ marginRight: '50px'}}/>Une authentification supplémentaire</h2></Card.Header>
                     <div className="d-flex justify-content-between">                        
                         <Card style={{ borderStyle: 'none', height: '40px', marginTop: '40px', marginLeft: '150px', marginRight: '30px'}}>
                             <TbNumber1 size={30}/>
@@ -78,19 +80,28 @@ export class SecurityPaiement extends Component {
                             </Card.Text>
                         </Card>   
                     </div>
-                        <Card.Text>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        Pour les achats en ligne, cela signifie que le seul code ç usage unqieu reçu par SMS ne suffit plus.<br/>
-                        Pour répondre ç cette nouvelle obligation , les banques ont majoritairement orienté leurs cliens vers un service disponible via leurs application mobile bancaire:<br/>
-                        pour s'authentifier, une notification est envoyée sur l'application de la banque du titulaire de la carte.<br/>
-                        Cette notification invite alors le client à saisir un code secret (connaissance), soit une empreinte biométrique (Inhérence).<br/>
-                        Le second facteur est vérifié de fait par l'appareil sur lequel est reçu la notification (possession).
-                        </Card.Text>
+                    <div>
+                        <Card style={{ marginTop: '100px', width: '700px', marginRight: 'auto', marginLeft: 'auto'}}>
+                            <ImWarning color="red" size={50}/>
+                            <Card.Text>
+                                Pour les achats en ligne, cela signifie que le seul code ç usage unqieu reçu par SMS ne suffit plus.<br/>
+                                Pour répondre ç cette nouvelle obligation , les banques ont majoritairement orienté leurs cliens vers un service disponible via leurs application mobile bancaire:<br/>
+                                pour s'authentifier, une notification est envoyée sur l'application de la banque du titulaire de la carte.<br/>
+                                Cette notification invite alors le client à saisir un code secret (connaissance), soit une empreinte biométrique (Inhérence).<br/>
+                                Le second facteur est vérifié de fait par l'appareil sur lequel est reçu la notification (possession).     
+                            </Card.Text>
                         </Card>
+                        {/*<Card>
+                            Pour les achats en ligne, cela signifie que le seul code ç usage unqieu reçu par SMS ne suffit plus.<br/>
+                            Pour répondre ç cette nouvelle obligation , les banques ont majoritairement orienté leurs cliens vers un service disponible via leurs application mobile bancaire:<br/>
+                            pour s'authentifier, une notification est envoyée sur l'application de la banque du titulaire de la carte.<br/>
+                            Cette notification invite alors le client à saisir un code secret (connaissance), soit une empreinte biométrique (Inhérence).<br/>
+                            Le second facteur est vérifié de fait par l'appareil sur lequel est reçu la notification (possession).
+        </Card>*/}
+                    </div>
+                        <Card.Text>
+                        </Card.Text>
+                </Card>
                 <div id="bonsavoir" className="d-flex justify-content-around">
                     <Card style={{ width: '500px'}}>
                         <Card.Header><h3>Bon à savoir</h3></Card.Header>
