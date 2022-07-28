@@ -125,6 +125,7 @@
 
 #icon-partenaire {
     border-style: none;
+    height: 200px;
 }
 
 /*card structure*/
@@ -140,3 +141,4 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
