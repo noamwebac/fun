@@ -13,7 +13,7 @@ export class Respect extends Component {
                     <h3 style={{ textAlign: 'center', marginTop: '50px'}}>Travailler avec plaisir</h3>
                 </div>
                 <div>
-                    <Card style={{ marginRight: 'auto', marginLeft: 'auto', width: '1200px', marginBottom: '30px'}}>
+                    <Card style={{ marginRight: 'auto', marginLeft: 'auto', width: '1200px', marginBottom: '30px', marginTop: '30px'}}>
                         <Card.Body>
                             <Card.Text> 
                                 Pour nous permettre une prise en charge rapide et efficace, nous vous demandons quelques conditions indiqué dans la procédure que vous avez reçu par téléphone ou e-mail.

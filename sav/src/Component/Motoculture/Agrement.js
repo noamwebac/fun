@@ -14,7 +14,7 @@ export class Agrement extends Component {
                     <Card id="agrement">
                         <Card.Header><h4 id="title-partenaire">Profitez de nos 38 agréments et trouvez la réponse à votre problématique</h4></Card.Header>
                         <Card.Body>
-                            <Card.Text style={{ fontSize: '15px'}}>Nous travaillons exclusivement avec des professionnels et également avec de la pièce d'origine constructeur.</Card.Text>
+                            <Card.Text style={{ fontSize: '15px', textAlign: 'center'}}>Nous travaillons exclusivement avec des professionnels et également avec de la pièce d'origine constructeur.</Card.Text>
                         </Card.Body>
                     </Card>
                 </div>
@@ -32,7 +32,9 @@ export class Agrement extends Component {
                         </Card.Body>
                     </Card>
                 </div>
+                <div style={{ textAlign: 'center', marginTop: '100px', marginBottom: '200px'}}>
                     <img style={{ width: '1000px'}} src="https://sav03.fr/wa_files/image2.jpg"></img>
+                </div>
             </div>
         );
     }
