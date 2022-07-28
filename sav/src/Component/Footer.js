@@ -33,7 +33,7 @@ export class Footer extends Component {
                         <p id="text-footer">Pour suivre l'actualité de SAV03.<br/>
                         <br/>
                         Hésitez pas à nous suivre sur les réseaux sociaux</p>
-                        <ul className="list-unstyled d-flex justify-content-around">
+                        <ul className="list-unstyled d-flex justify-content-around" style={{ marginTop: '50px'}}>
                             <li><a id="list-icon" href="https://www.facebook.com/www.sav03.fr/"><FaFacebookF size={30}/></a></li>
                             <li><a id="list-icon" href="https://www.google.com/search?q=sav03&oq=sav03&aqs=chrome..69i57j69i60l3j69i65j69i60.1871j0j7&sourceid=chrome&ie=UTF-8"><FaGoogle size={30}/></a></li>
                             <li><a id="list-icon" href="https://www.ebay.fr/usr/sav_zero_trois"><FaEbay size={40}/></a></li>

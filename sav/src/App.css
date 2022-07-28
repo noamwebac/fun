@@ -120,11 +120,12 @@
 #footer {
     background-color:  #282828;
     color: white;
-    height: 300px;
+    height: 350px; 
 }
 
 #list-icon {
     color: white;
+    margin-right: 40px;
 }
 
 #text-footer {
@@ -134,7 +135,7 @@
 
 #title-footer {
     margin-bottom: 40px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 h4 {
