@@ -28,7 +28,7 @@ export class Navigate extends Component {
                                 <NavDropdown.Item href="https://www.amazon.fr/s?i=merchant-items&me=A1YSM2PYI2Y8JE&qid=1566137336&ref=sr_hi_1">Boutique Amazon</NavDropdown.Item>
                                 <NavDropdown.Item href="https://www.ebay.fr/usr/sav_zero_trois">Boutique Ebay</NavDropdown.Item>
                                 </NavDropdown>
-                                <Nav.Link href="#link" className="text-grey"><h2>Lidl</h2></Nav.Link>
+                                <Nav.Link href="Lidl" className="text-grey"><h2>Lidl</h2></Nav.Link>
                                 <NavDropdown title="Motoculture" variant="light" className="dropdown-lg" menuVariant="dark" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/Motoculture">Motoculture</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Accès partenaire</NavDropdown.Item>
