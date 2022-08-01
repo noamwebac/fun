@@ -24,18 +24,14 @@ export class Navigate extends Component {
                             <Nav id="menu">
                                 <NavDropdown title="Boutique en ligne" className="dropdown" variant="dark" menuVariant="dark" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/Aide">Aide & Support</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                                <NavDropdown.Item href="https://sav03.net/">Boutique SAV03</NavDropdown.Item>
+                                <NavDropdown.Item href="https://www.amazon.fr/s?i=merchant-items&me=A1YSM2PYI2Y8JE&qid=1566137336&ref=sr_hi_1">Boutique Amazon</NavDropdown.Item>
+                                <NavDropdown.Item href="https://www.ebay.fr/usr/sav_zero_trois">Boutique Ebay</NavDropdown.Item>
                                 </NavDropdown>
                                 <Nav.Link href="#link" className="text-grey"><h2>Lidl</h2></Nav.Link>
                                 <NavDropdown title="Motoculture" variant="light" className="dropdown-lg" menuVariant="dark" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/Motoculture">Motoculture</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.2">Accès partenaire</NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
                             <Nav id="nav-contact">
