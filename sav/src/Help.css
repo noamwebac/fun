@@ -53,11 +53,11 @@
 }
 
 #bonsavoir {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
     height: 400px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 #authentification {
@@ -73,7 +73,7 @@
     margin-right: auto;
     height: 400px;
     width: 900px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     border-style: none;
 }
 
