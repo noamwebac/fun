@@ -17,8 +17,8 @@ export class Grizzly extends Component {
                         Some quick example text to build on the card title and make up the bulk of
                         the card's content.
                         </Card.Text>
-                        <Accordion defaultActiveKey="0">
-                            <Accordion.Item eventKey="0">
+                        <Accordion>
+                            <Accordion.Item>
                                 <Accordion.Header>Accordion Item #1</Accordion.Header>
                                 <Accordion.Body style={{ textAlign: 'left'}}>
                                 La société a été fondée en 1998 par les associés généraux sous le nom "Grizzly Gartengeräte GmbH & Co. KG" à Groß-Umstadt, dans le sud de la Hesse. <br/> 
