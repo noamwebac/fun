@@ -11,7 +11,7 @@ export class Presentation extends Component {
                 <Card>
                     <div className="d-flex justify-content-around">
                         <Card style={{ borderStyle: 'none', marginTop: '150px'}}>
-                            <img style={{ width: '400px', height: '200px'}} src="https://www.sav03.shop/img/sav03-logo-1650785360.jpg"/>
+                            <img style={{ width: '400px', height: '200px'}} src="https://www.sav03.net/img/prestashop-logo-1656863865.jpg"/>
                         </Card>
                         <Card style={{ width: '700px', marginBottom: '100px', marginTop: '100px'}}>
                             <Card.Title><h1>Présentation :</h1></Card.Title>
