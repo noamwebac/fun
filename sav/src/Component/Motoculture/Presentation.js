@@ -26,6 +26,36 @@ export class Presentation extends Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                        <Card style={{ width: '300px'}}>
+					<Card.Body>
+						<Card.Text value="1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AERATEURS ET SCARIFICATEURS <span class="caret"></span></Card.Text>
+						<Card.Text value="2" href="https://www.bricovideo.ovh/" onclick="return true;" target="_blank">TESTS</Card.Text>
+						<Card.Text value="3" href="https://www.sav03.shop/843-aerateurs-et-scarificateurs" onclick="return true;" target="_blank">PIECES DETACHEES</Card.Text>
+						<Card.Text value="4" href="https://www.lidl.fr/fr/faq.htm" onclick="return true;" target="_blank">AIDE LIDL</Card.Text>
+						<Card.Text value="5" href="https://www.lidl-service.com/cps/rde/SID-F40AFB83-F5338D67/lsp/hs.xsl/searchpage.html?rdeLocaleAttr=fr" onclick="return true;" target="_blank">MANUELS</Card.Text>
+						<Card.Text value="6" href="https://www.blablalidl.com/forum" onclick="return true;" target="_blank">FAQ</Card.Text>
+					</Card.Body>
+				</Card>
+				<Card style={{ width: '300px'}}>
+					<Card.Body>
+						<Card.Text href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AFFUTEURS <span class="caret"></span></Card.Text>
+						<Card.Text href="https://www.bricovideo.ovh/" onclick="return true;" target="_blank">TESTS</Card.Text>
+						<Card.Text href="https://www.sav03.shop/867-affuteurs" onclick="return true;" target="_blank">PIECES DETACHEES</Card.Text>
+						<Card.Text href="https://www.lidl.fr/fr/faq.htm" onclick="return true;" target="_blank">AIDE LIDL</Card.Text>
+						<Card.Text href="#" onclick="return true;">MANUELS</Card.Text>
+						<Card.Text href="https://www.blablalidl.com/forum" onclick="return true;" target="_blank">FAQ</Card.Text>
+					</Card.Body>
+				</Card>
+				<Card style={{ width: '300px'}}>
+					<Card.Body>
+						<Card.Text href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AIGUISEURS DE CHAINES <span class="caret"></span></Card.Text>
+						<Card.Text href="https://www.bricovideo.ovh/" onclick="return true;" target="_blank">TESTS</Card.Text>
+						<Card.Text href="https://www.sav03.shop/867-affuteurs" onclick="return true;" target="_blank">PIECES DETACHEES</Card.Text>
+						<Card.Text href="https://www.lidl.fr/fr/faq.htm" onclick="return true;" target="_blank">AIDE LIDL</Card.Text>
+						<Card.Text href="#" onclick="return true;">MANUELS</Card.Text>
+						<Card.Text href="https://www.blablalidl.com/forum" onclick="return true;" target="_blank">FAQ</Card.Text>
+					</Card.Body>
+				</Card>		
                     </div>
                 </Card>
             </div>
