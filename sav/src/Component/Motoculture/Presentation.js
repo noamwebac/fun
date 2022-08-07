@@ -26,7 +26,7 @@ export class Presentation extends Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card style={{ width: '300px'}}>
+                        {/*<Card style={{ width: '300px'}}>
 					<Card.Body>
 						<Card.Text value="1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AERATEURS ET SCARIFICATEURS <span class="caret"></span></Card.Text>
 						<Card.Text value="2" href="https://www.bricovideo.ovh/" onclick="return true;" target="_blank">TESTS</Card.Text>
@@ -55,7 +55,7 @@ export class Presentation extends Component {
 						<Card.Text href="#" onclick="return true;">MANUELS</Card.Text>
 						<Card.Text href="https://www.blablalidl.com/forum" onclick="return true;" target="_blank">FAQ</Card.Text>
 					</Card.Body>
-				</Card>		
+		</Card>*/}
                     </div>
                 </Card>
             </div>

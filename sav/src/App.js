@@ -7,7 +7,7 @@ import {
 import { Home } from "./Pages/Home";
 import { Aide } from "../src/Pages/AIde";
 import { Motoculture } from "./Pages/Motoculture";
-import { Lidl } from "./Pages/Lidl"; 
+import { Lidl } from "./Pages/Lidl";
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/Aide" element={<Aide/>}/>
         <Route path="/Motoculture" element={<Motoculture/>}/>
-        <Route path="/Lidl" element={<Lidl/>}/>
+        {/*<Route path="/Lidl" element={<Lidl/>}/>*/}
       </Routes>
     </BrowserRouter>
   );

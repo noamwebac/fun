@@ -8,7 +8,7 @@ import {
 export class Test extends Component {
     render() {
 		return(
-			<div>
+			<div>{/* 
 							<Card>
 								<Card.Text value="1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AERATEURS ET SCARIFICATEURS <span class="caret"></span></Card.Text>
 								<Card.Text value="2" href="https://www.bricovideo.ovh/" onclick="return true;" target="_blank">TESTS</Card.Text>
@@ -320,7 +320,7 @@ export class Test extends Component {
 							<Card.Text href="https://www.lidl.fr/fr/faq.htm" onclick="return true;" target="_blank">AIDE LIDL</Card.Text>
 							<Card.Text href="https://www.blablalidl.com/forum" onclick="return true;" target="_blank">FAQ</Card.Text>
 
-					</Card>
+		</Card>*/}
             </div>
         );
     }
