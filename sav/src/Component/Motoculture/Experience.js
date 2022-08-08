@@ -28,7 +28,7 @@ export class Experience extends Component {
                     </Card.Body>
                 </Card>
                 <Card id="card-structure">
-                    <Card.Header><h2>Une expérience évolutive</h2></Card.Header>
+                    <Card.Header><h3 style={{ fontSize: '1.9rem'}}>Une expérience évolutive</h3></Card.Header>
                     <Card.Body>
                         <Card.Text>Soucieux de la qualité de prestation, nous travaillons chaque jour à améliorer nos prestations. Vos feedbacks nous permettent d'être au plus près de vos besoins.</Card.Text>
                     </Card.Body>
