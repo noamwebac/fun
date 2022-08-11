@@ -143,3 +143,19 @@
     margin-bottom: 100px;
 }
 
+/*card secursticky*/
+
+#secur-sticky {
+    width: 350px;
+    height: 150px;
+}
+
+#card-sticky {
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+}
+
+#button-close {
+    margin-left: 90%;
+}

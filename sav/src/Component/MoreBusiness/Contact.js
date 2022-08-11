@@ -15,7 +15,7 @@ export class Contact extends Component {
                 </Card>
                 <Card id="card-card-contact" style={{ border: 'none'}} className="d-flex justify-content-around">
                     <Card.Body>
-                        <h4 style={{ marginBottom: '20px', textShadow: '10px 10px 10px #B9B9B9, 10px 10px 20px #B9B9B9'}}>Contactez nous par téléphone au 04 70 48 13 20</h4>
+                        <h4>Contactez nous par téléphone au 04 70 48 13 20</h4>
                         <Form>
                             <Form.Group>
                                 <Form.Label>Nom et Prénom:</Form.Label>
