@@ -5,11 +5,17 @@ import {
     Card,
     Button
 } from "react-bootstrap";
+import { DiAptana } from "react-icons/di";
+import { BsCartXFill } from "react-icons/bs";
+import { BsFillBagXFill } from "react-icons/bs";
+import { BsTruck } from "react-icons/bs";
+import { TbPackageOff } from "react-icons/tb";
 
 export function TestSupport() {
     return(
         <div>
             <Card style={{ width: '600px', marginRight: 'auto', marginLeft: 'auto', marginTop: '100px',marginBottom: '100px'}}>
+                <Card.Header className="d-flex justify-content-between"><DiAptana id="icon-support" size={30}/><BsCartXFill id="icon-support" size={30}/><BsFillBagXFill id="icon-support" size={30}/><BsTruck id="icon-support" size={30}/><TbPackageOff id="icon-support" size={30}/></Card.Header>
                 <Card.Header>Un soucis sur une commande ou une livraison vous pouvez nous contactez</Card.Header>
             </Card>
             <Accordion>
