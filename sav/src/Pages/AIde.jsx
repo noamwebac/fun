@@ -7,6 +7,7 @@ import { Footer } from "../Component/Footer";
 import { FormSupport } from "../Component/Help/FormSupport";
 import { SecurityPaiement } from "../Component/Help/SecurityPaiement";
 import { SecurSticky } from "../Component/MoreBusiness/SecurSticky";
+import { TestSupport } from "../Component/Help/TestSupport";
 
 export class Aide extends Component {
     render() {
@@ -14,7 +15,8 @@ export class Aide extends Component {
             <div>
                 <Navigate/>
                 <Support/>
-                <FormSupport/>
+                {/*<FormSupport/>*/}
+                <TestSupport/>
                 <SecurityPaiement/>
                 <Contact/>
                 <Footer/>
