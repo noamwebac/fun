@@ -19,6 +19,20 @@
     margin-left: 80px;
 }
 
+/*carousel image*/
+
+#title-car-image {
+    color:#B9B9B9;
+    text-align: center;
+    width: 800px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    backdrop-filter: blur(8px);
+    padding: 25px;
+}
+
 /*Card presentation fichier Body*/
 
 #container-card {
