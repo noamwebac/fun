@@ -4,6 +4,7 @@ import {
 } from "react-bootstrap";
 
 export function TestSupport() {
+    const [showText, setIsShow] = useState(false);
     return(
         <div>
             <Form.Select aria-label="Default select example">
