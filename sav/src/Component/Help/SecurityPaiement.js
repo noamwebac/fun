@@ -26,7 +26,6 @@ export class SecurityPaiement extends Component {
                         Des exceptions sont toutefois autorisées.<br/> 
                         Cela concerne notamment les transactions sur internet de moins de 30€, qui peuvent déroger à ce principe d'authentification forte. 
                         </Card.Text>
-                    <img style={{ height: '300px'}} src="https://www.laplateforme.com/cms/i?o=%2Fsites%2Fdefault%2Ffiles%2Finline-images%2F3d-secure.jpg"/>
                     </Card.Body>
                 </Card>
                 <Card id="authentification">
