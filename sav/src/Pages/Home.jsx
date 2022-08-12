@@ -10,6 +10,7 @@ import { Origin } from "../Component/MoreBusiness/Origin";
 import { Grizzly } from "../Component/MoreBusiness/Grizzly";
 import { Map } from "../Component/MoreBusiness/Map";
 import { Contact } from "../Component/MoreBusiness/Contact";
+import { TimeTable } from "../Component/MoreBusiness/TimeTable";
 import "../App.css";
 import "../Help.css";
 
@@ -25,6 +26,7 @@ export class Home extends Component {
                 <Origin/>
                 <Grizzly/>
                 <Map/>
+                <TimeTable/>
                 <Contact/>
                 <Footer/>
             </div>
