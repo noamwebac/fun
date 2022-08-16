@@ -3,7 +3,7 @@ module.exports = app => {
     var router = require("express").Router();
     
     //new user
-    router.post("/", students.create);
+    router.post("/", user.create);
     //view all user
     router.get("/", user.findAll);
     //view one user
