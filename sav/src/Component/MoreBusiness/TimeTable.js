@@ -9,8 +9,8 @@ export class TimeTable extends Component {
     render() {
         return(
             <div>
-                <Card>
-                    <Card.Header style={{ width: '400px', marginLeft: 'auto', marginRight: 'auto', marginTop: '50px'}}>Grilles horaires</Card.Header>
+                <Card style={{ width: '1100px', marginLeft: 'auto', marginRight: 'auto', marginBottom: '100px'}}>
+                    <Card.Header style={{ textAlign: 'center'}}>Horaires d'ouverture de notre centre d'appel ainsi que notre boutique sur place</Card.Header>
                     <Table style={{ width: '800px', marginLeft: 'auto', marginRight: 'auto', marginTop: '100px', marginBottom: '100px'}} striped bordered hover variant="dark">
                         <thead>
                             <tr>
