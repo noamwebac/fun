@@ -8,6 +8,7 @@ import { Home } from "./Pages/Home";
 import { Aide } from "../src/Pages/AIde";
 import { Motoculture } from "./Pages/Motoculture";
 import { Lidl } from "./Pages/Lidl";
+import { Partenaire } from "./Pages/Partenaire";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Aide" element={<Aide/>}/>
         <Route path="/Motoculture" element={<Motoculture/>}/>
         <Route path="/Lidl" element={<Lidl/>}/>
+        <Route path="/Partenaire" element={<Partenaire/>}/>
       </Routes>
     </BrowserRouter>
   );

@@ -47,5 +47,6 @@
     "terser": "^5.14.2",
     "terser-brunch": "^4.1.0",
     "uglifyify": "^5.0.2"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }
