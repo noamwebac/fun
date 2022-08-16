@@ -66,3 +66,28 @@ exports.findOne = (req, res) => {
         });
     });
 };
+
+//update user
+exports.update = (req, res) => {
+    const id =req.params.id;
+
+    User.update(req, body, {
+        where: { id: id }
+    })
+    .then(num => {
+        if (num == 1) {
+            res.send({
+                message: "Succes for update this user"
+            });
+        } else {
+            res.send({
+                message: `An error occurred while modifying the user with id=${id}`
+            });
+        }
+    })
+    .catch(err => {
+        res.status(500).send({
+            message: "Error for update this user with id=" +id
+        });
+    });
+};
