@@ -69,7 +69,7 @@ exports.findOne = (req, res) => {
 
 //update user
 exports.update = (req, res) => {
-    const id =req.params.id;
+    const id = req.params.id;
 
     User.update(req, body, {
         where: { id: id }
@@ -88,6 +88,31 @@ exports.update = (req, res) => {
     .catch(err => {
         res.status(500).send({
             message: "Error for update this user with id=" +id
+        });
+    });
+};
+
+//delet user
+exports.delte = (req, res) => {
+    const id = req.params.id;
+
+    User.remove({
+        where: { id: id }
+    })
+    .then(num => { 
+        if (num == 1) {
+            res.send({
+                message: "the deletion of this user is successful"
+            });
+        } else {
+            res.send({
+                message: `An error occured while deleting the user with id=${id}`
+            });
+        }
+    })
+    .catch(err => {
+        res.status(500).send({
+            message: "Error for delete this user with id=" +id
         });
     });
 };
