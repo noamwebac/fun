@@ -1,13 +1,19 @@
-const { Sequelize } = require('Sequelize');
+const DbConfig = require("./DbConfig");
+const Sequelize = require("Sequelize");
 
-const connect = new Sequelize('testnode', 'root', 'Root123$', {
-    host: 'localhost',
-    dialect: 'mysql'
+const Sequelize = new Sequelize(
+    DbConfig.DB,
+    DbConfig.USER,
+    DbConfig.PASSWORD, {
+        host: DbConfig.HOST,
+        dialect: DbConfig.dialect,
 });
 
-try {
-    await Sequelize.authentificate();
-    console.log('Connected');
-} catch (erro) {
-    console.log('Not connected');
-}
+const db = {};
+
+db.Sequelize = Sequelize;
+db.sequelize = sequelize;
+
+db.tutorial = require("./tutorials.model.js")(sequelize, Sequelize);
+
+module.exports = db;
