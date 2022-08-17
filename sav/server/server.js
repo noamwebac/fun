@@ -2,6 +2,8 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const db = require("./Models/DbUser.js");
+require('./app/routes/auth.routes')(app);
+require('./app/routes/user.routes')(app);
   
 var corsOptions = {
     origin: "http://localhost:3001"
