@@ -54,7 +54,20 @@ const Login = (props) => {
                     <Form.Label htmlfor="password">Password</Form.Label>
                     <Form.Control type="password" id="password" value={password} onChange={onChangePassword} validations={[required]} placeholder="Password"/>
                 </Form.Group>
-                <Button onClick={handleSubmit} variant="primary" type="submit">Submit</Button>
+                <Button disabled={loading} variant="primary" type="submit">
+                    {loading && (
+                        <span className="spinner-border spinner-border-sm"></span>
+                    )}
+                    Login
+                </Button>
+                {message && (
+                    <div className="form-group">
+                    <div className="alert alert-danger" role="alert">
+                        {message}
+                    </div>
+                    </div>
+                )}
+                <CheckButton style={{ display: "none" }} ref={checkBtn} />
             </Form>
         </div>
     );
