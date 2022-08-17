@@ -1,41 +1,58 @@
 const { Sequelize, DataTypes } = require("sequelize");
+const db = require("../Config/Test");
+const bcrypt = require("bcrypt");
+const saltRounds = 10;
 
-const sequelize = new Sequelize(
-    'testnode',
-    'root',
-    'Root123$',
-     {
-       host: 'localhost',
-       dialect: 'mysql'
-     }
-   );
-
-sequelize.authenticate().then(() => {
-    console.log('Connection has been established successfully.');
-}).catch((error) => {
-    console.error('Unable to connect to the database: ', error);
-});
-
-const Base = sequelize.define("base", {
-    title: {
-        type: DataTypes.STRING,
+const User = db.define("user", {
+    id: {
+        type: Sequelize.INTEGER,
+        autoIncrement: true,
+        allowNull: false,
+        primaryKey: true
+    },
+    firstname:{
+        type: Sequelize.STRING,
         allowNull: false
-      },
-      author: {
-        type: DataTypes.STRING,
+    },
+    lastname: {
+        type: Sequelize.STRING,
         allowNull: false
-      },
-      release_date: {
-        type: DataTypes.DATEONLY,
-      },
-      subject: {
-        type: DataTypes.INTEGER,
-      }
+    },
+    email: {
+        type: Sequelize.STRING,
+        allowNull: false
+    },
+    hash: {
+        type: Sequelize.STRING,
+        allowNull: false
+    }
 });
 
 sequelize.sync().then(() => {
-    console.log('Book table created successfully!');
+    console.log('User table created successfully!');
 }).catch((error) => {
     console.error('Unable to create table : ', error);
 });
- 
+
+User.beforeCreate((user, options) => {
+    return bcrypt.hash(user.hash, saltRounds)
+        .then(hash => {
+            user.hash = hash;
+        })
+        .catch(err => {
+            console.log(err)
+            throw new Error();
+        });
+});
+
+User.prototype.authentificate = async function (value, callback) {
+    await bcrypt.compare(value, this.hash, function(err, same){
+        if (err){
+            console.log(err)
+            callback(err)
+        } else {
+            console.log('authentificate', err, same)
+            callback(err, same)
+        }
+    })
+}
