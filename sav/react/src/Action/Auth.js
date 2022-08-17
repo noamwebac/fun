@@ -6,7 +6,7 @@ import {
   LOGOUT,
   SET_MESSAGE
 } from "./Types";
-import { Auth } from "../Services/Auth";
+import { login } from "../Services/Auth";
 
 export const register = (username, email, password) => (dispatch) => {
     return Auth.register(username, email, password).then(
@@ -36,7 +36,7 @@ export const register = (username, email, password) => (dispatch) => {
 };
 
 export const login = (email, password) => (dispatch) => {
-    return Auth.login(email, password).then(
+    return Auth.Singin(email, password).then(
         (data) => {
             dispatch({
                 type: LOGIN_SUCCESS,
