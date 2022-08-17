@@ -1,29 +1,29 @@
 const { Sequelize, DataTypes } = require("sequelize");
-const db = require("../Config/Test");
+const sequelize = require("../Config/Test");
 const bcrypt = require("bcrypt");
 const saltRounds = 10;
 
-const User = db.define("user", {
+const User = sequelize.define('user', {
     id: {
-        type: Sequelize.INTEGER,
+        type: DataTypes.INTEGER,
         autoIncrement: true,
         allowNull: false,
         primaryKey: true
     },
     firstname:{
-        type: Sequelize.STRING,
+        type: DataTypes.STRING,
         allowNull: false
     },
     lastname: {
-        type: Sequelize.STRING,
+        type: DataTypes.STRING,
         allowNull: false
     },
     email: {
-        type: Sequelize.STRING,
+        type: DataTypes.STRING,
         allowNull: false
     },
     hash: {
-        type: Sequelize.STRING,
+        type: DataTypes.STRING,
         allowNull: false
     }
 });
@@ -56,3 +56,5 @@ User.prototype.authentificate = async function (value, callback) {
         }
     })
 }
+
+module.exports = User;
