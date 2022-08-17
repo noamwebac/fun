@@ -1,5 +1,6 @@
-const DbConfig = require("./DbConfig");
+const DbConfig = require("./DbConfig.js");
 const Sequelize = require("sequelize");
+const { DB, USER, PASSWORD } = require("./DbConfig.js");
 
 const SequelizeInstance = new Sequelize(
     DbConfig.DB,
@@ -9,11 +10,13 @@ const SequelizeInstance = new Sequelize(
         dialect: DbConfig.dialect,
 });
 
+console.log(DB, USER, PASSWORD);
+
 const db = {};
 
 db.Sequelize = Sequelize;
 db.sequelize = SequelizeInstance;
 
-db.tutorial = require("./DbUser.js")(SequelizeInstance, Sequelize);
+db.user = require("../Models/DbUser.js")(SequelizeInstance, Sequelize);
 
 module.exports = db;

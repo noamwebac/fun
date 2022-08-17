@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const db = require("./Models/DbUser");
+const db = require("./Models/DbUser.js");
   
 var corsOptions = {
     origin: "http://localhost:3001"
@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 
-require("./Routes/Routes")(app);
+require("./Routes/Routes.js")(app);
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {

@@ -1,6 +1,6 @@
-const db = require("../Models/DbUser");
+const db = require("../Models/DbUser.js");
 const User = db.User;
-//const Op = db.Sequelize.Op;
+const Op = db.Sequelize;
 
 //register new user
 exports.create = (req, res) => {
@@ -93,7 +93,7 @@ exports.update = (req, res) => {
 };
 
 //delet user
-exports.delte = (req, res) => {
+exports.delete = (req, res) => {
     const id = req.params.id;
 
     User.remove({
