@@ -1,4 +1,4 @@
-const db = require("../Models/DbUser.js");
+const db = require("../Models/Model");
 const User = db.User;
 const Op = db.Sequelize;
 

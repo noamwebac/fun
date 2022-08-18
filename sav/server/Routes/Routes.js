@@ -1,9 +1,9 @@
 module.exports = app => {
-    const user = require("../Controllers/User.js");
+    const user = require("../Controllers/AuthController");
     var router = require("express").Router();
     
     //new user
-    router.post("/register", RegisterController.Register);
+    router.post("/register", user.signup.Register);
     //login user
     router.post("/login", LoginController.Login);
     //view all user

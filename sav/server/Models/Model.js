@@ -13,9 +13,10 @@ const sequelize = new Sequelize(
 const db = {};
 db.Sequelize = Sequelize;
 db.Sequelize = sequelize;
-db.user = require("./UserModel")(sequelize, Sequelize);
+
 db.role = require("./RoleModel")(sequelize, Sequelize);
-db.role.belongTomany(db.user, {
+
+/*db.role.belongTomany(db.user, {
     through: "user_roles",
     foreignKey: "roleId",
     otherKey: "userId"
@@ -24,7 +25,7 @@ db.user.belongTomany(db.role, {
     through: "user_roles",
     foreignKey: "userId",
     otherKey: "roleId"
-});
+});*/
 db.ROLES = ["user", "admin", "moderator"];
 
 module.exports = db;

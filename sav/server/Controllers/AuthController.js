@@ -1,5 +1,5 @@
 const db = require("../Models/Model");
-const config = require("../Config");
+const config = require("../Middleware/Middle");
 const { role } = require("../Models/Model");
 const User = db.user;
 const Role = db;role;
