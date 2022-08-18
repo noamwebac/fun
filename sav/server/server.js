@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const route = require("./Routes/UserRoutes")(app);
+const routes = require("./Routes/RoutesRole")(app);
   
 var corsOptions = {
     origin: "http://localhost:3001"

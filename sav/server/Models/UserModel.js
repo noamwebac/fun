@@ -25,6 +25,10 @@ const User = sequelize.define('user', {
     hash: {
         type: DataTypes.STRING,
         allowNull: false
+    },
+    roles: {
+        type: DataTypes.INTEGER,
+        allowNull: false
     }
 });
 
